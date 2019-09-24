@@ -1,7 +1,7 @@
 <template>
   <div class="top">
     <h1>samsepy</h1>
-    <p>1995年8月30日生まれ、24歳。<br>海外で暮らしたい。</p>
+    <p>1995年8月30日生まれ、24歳。<br>出身は石川で、現在は東京住まい。<br>海外で暮らしたい。</p>
     <h2>Profile</h2>
     <ul>
       <li>Name: Hajime Todo (東度 基) - Also known as: todo, samsepy</li>
@@ -31,7 +31,7 @@
       <li><a href="https://www.amazon.jp/hz/wishlist/ls/13WQUGCYG4293?ref_=wl_share" target="_blank">Amazon</a> - wishlist</li>
     </ul>
     <h2>Pays</h2>
-    <p>請求や送金する際にこちらを使ってもらうと助かります。</p>
+    <p>請求や送金する際にこちらを使ってもらうと助かります。<s>金くれ</s></p>
     <ul>
       <li>Kyash: @samsepy</li>
       <li>LINE Pay: @todo1995 - 友達になる必要あり</li>
