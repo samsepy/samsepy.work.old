@@ -6,9 +6,9 @@
 
 <style>
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', 'Hiragino Kaku Gothic ProN',
+    'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+  font-size: 18px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
