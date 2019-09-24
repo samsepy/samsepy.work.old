@@ -43,8 +43,8 @@
       </ul>
       <h2>Contacts</h2>
       <ul>
-        <li>Mail: <a href="mailto:samsepylot@gmail.com">samsepylot@gmail.com</a></li>
-        <li>Telegram: @samsepy</li>
+        <li><b>Mail</b>: <a href="mailto:samsepylot@gmail.com">samsepylot@gmail.com</a></li>
+        <li><b>Telegram</b>: @samsepy</li>
         <li><a href="https://www.facebook.com/hajime.todo" target="_blank">Messenger</a></li>
       </ul>
     </div>
