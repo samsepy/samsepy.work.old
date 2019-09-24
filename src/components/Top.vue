@@ -4,7 +4,7 @@
     <p>1995年8月30日生まれ、24歳。<br>出身は石川で、現在は東京住まい。<br>海外で暮らしたい。</p>
     <h2>Profile</h2>
     <ul>
-      <li>Name: Hajime Todo (東度 基) - Also known as: todo, samsepy</li>
+      <li>Name: Hajime Todo (東度 基) - Also known as: todo, todo-san, samsepy</li>
       <li>Job: Software Engineer</li>
       <li>Career:</li>
       <ul>
