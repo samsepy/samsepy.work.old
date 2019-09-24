@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <logo />
+      <img src="../assets/images/logo.png" alt="logo">
       <h1>samsepy</h1>
       <p class="subscription">1995年8月30日生まれ、24歳。<br>出身は石川で、現在は東京住まい。<br>海外で暮らしたい。</p>
       <h2>Profile</h2>
