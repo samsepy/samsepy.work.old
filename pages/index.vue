@@ -2,28 +2,51 @@
   <div class="container">
     <div>
       <logo />
-      <h1 class="title">
-        samsepy.work
-      </h1>
-      <h2 class="subtitle">
-        My glorious Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      <h1>samsepy</h1>
+      <p class="subscription">1995年8月30日生まれ、24歳。<br>出身は石川で、現在は東京住まい。<br>海外で暮らしたい。</p>
+      <h2>Profile</h2>
+      <ul>
+        <li>Name: Hajime Todo (東度 基) - Also known as: todo, samsepy</li>
+        <li>Job: Software Engineer</li>
+        <li>Career:</li>
+        <ul class="nest-list">
+          <li>Kanazawa Institute of Technology (2014-2018) - Bachelor</li>
+          <li>SOUYA Co.,Ltd. (2016-2017) - Part time Engineer</li>
+          <li>OPEN8, Inc. (2018-2019) - Engineer</li>
+          <li>Sole proprietor (2019-) - Engineer</li>
+        </ul>
+      </ul>
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming languages: Ruby, Python</li>
+        <li>Frameworks: Ruby on Rails</li>
+        <li>Databases: MySQL</li>
+        <li>Markup languages: HTML5+CSS3</li>
+        <li>Environments: macOS, Git, GitHub</li>
+      </ul>
+      <h2>Sites</h2>
+      <ul>
+        <li><a href="https://github.com/samsepy" target="_blank">GitHub</a></li>
+        <li><a href="http://samsepy.hatenablog.com/" target="_blank">はてなブログ</a></li>
+        <li><a href="https://alis.to/users/samsepy" target="_blank">ALIS</a></li>
+        <li><a href="https://twitter.com/samsepy"  target="_blank"><s>Twitter</s></a> - やめた</li>
+        <li><a href="https://www.facebook.com/hajime.todo" target="_blank">Facebook</a></li>
+        <li><a href="https://www.amazon.jp/hz/wishlist/ls/13WQUGCYG4293?ref_=wl_share" target="_blank">Amazon</a> - wishlist</li>
+      </ul>
+      <h2>Pays</h2>
+      <p>請求や送金する際にこちらを使ってもらうと助かります。<s>金くれ</s></p>
+      <ul>
+        <li>Kyash: @samsepy</li>
+        <li>LINE Pay: @todo1995 - 友達になる必要あり</li>
+        <li>PayPay: @samsepy</li>
+        <li>NEM: NAVLPQ-TXNVHP-GSXUE7-NEH5N4-QMPH2X-Q5VZ65-OWFI</li>
+      </ul>
+      <h2>Contacts</h2>
+      <ul>
+        <li>Mail: <a href="mailto:samsepylot@gmail.com">samsepylot@gmail.com</a></li>
+        <li>Telegram: @samsepy</li>
+        <li><a href="https://www.facebook.com/hajime.todo" target="_blank">Messenger</a></li>
+      </ul>
     </div>
   </div>
 </template>
@@ -41,6 +64,8 @@ export default {
 <style>
 .container {
   margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -48,25 +73,46 @@ export default {
   text-align: center;
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+h1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
 }
 
-.links {
-  padding-top: 15px;
+h1, h2 {
+  font-weight: normal;
+}
+
+p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left
+}
+
+li {
+  margin: 5px 0;
+}
+
+a {
+  color: #42b983;
+}
+
+.subscription {
+  text-align: center;
+}
+
+.nest-list {
+  padding-left: 20px;
 }
 </style>
