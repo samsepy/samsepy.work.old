@@ -6,9 +6,9 @@
       <p class="subscription">1995年8月30日生まれ、24歳。<br>出身は石川で、現在は東京住まい。<br>海外で暮らしたい。</p>
       <h2>Profile</h2>
       <ul>
-        <li>Name: Hajime Todo (東度 基) - Also known as: todo, samsepy</li>
-        <li>Job: Software Engineer</li>
-        <li>Career:</li>
+        <li><b>Name</b>: Hajime Todo (東度 基) - Also known as: todo, samsepy</li>
+        <li><b>Job</b>: Software Engineer</li>
+        <li><b>Career</b>:</li>
         <ul class="nest-list">
           <li>Kanazawa Institute of Technology (2014-2018) - Bachelor</li>
           <li>SOUYA Co.,Ltd. (2016-2017) - Part time Engineer</li>
@@ -18,11 +18,11 @@
       </ul>
       <h2>Skills</h2>
       <ul>
-        <li>Programming languages: Ruby, Python</li>
-        <li>Frameworks: Ruby on Rails</li>
-        <li>Databases: MySQL</li>
-        <li>Markup languages: HTML5+CSS3</li>
-        <li>Environments: macOS, Git, GitHub</li>
+        <li><b>Programming languages</b>: Ruby, Python</li>
+        <li><b>Frameworks</b>: Ruby on Rails</li>
+        <li><b>Databases</b>: MySQL</li>
+        <li><b>Markup languages</b>: HTML5+CSS3</li>
+        <li><b>Environments</b>: macOS, Git, GitHub</li>
       </ul>
       <h2>Sites</h2>
       <ul>
@@ -36,10 +36,10 @@
       <h2>Pays</h2>
       <p>請求や送金する際にこちらを使ってもらうと助かります。<s>金くれ</s></p>
       <ul>
-        <li>Kyash: @samsepy</li>
-        <li>LINE Pay: @todo1995 - 友達になる必要あり</li>
-        <li>PayPay: @samsepy</li>
-        <li>NEM: NAVLPQ-TXNVHP-GSXUE7-NEH5N4-QMPH2X-Q5VZ65-OWFI</li>
+        <li><b>Kyash</b>: @samsepy</li>
+        <li><b>LINE Pay</b>: @todo1995 - 友達になる必要あり</li>
+        <li><b>PayPay</b>: @samsepy</li>
+        <li><b>NEM</b>: NAVLPQ-TXNVHP-GSXUE7-NEH5N4-QMPH2X-Q5VZ65-OWFI</li>
       </ul>
       <h2>Contacts</h2>
       <ul>
