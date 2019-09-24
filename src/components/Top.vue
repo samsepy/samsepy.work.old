@@ -27,6 +27,7 @@
       <li><a href="https://github.com/samsepy" target="_blank">GitHub</a></li>
       <li><a href="http://samsepy.hatenablog.com/" target="_blank">はてなブログ</a></li>
       <li><a href="https://alis.to/users/samsepy" target="_blank">ALIS</a></li>
+      <li><a href="https://twitter.com/samsepy"  target="_blank"><s>Twitter</s></a> - やめた</li>
       <li><a href="https://www.facebook.com/hajime.todo" target="_blank">Facebook</a></li>
       <li><a href="https://www.amazon.jp/hz/wishlist/ls/13WQUGCYG4293?ref_=wl_share" target="_blank">Amazon</a> - wishlist</li>
     </ul>
