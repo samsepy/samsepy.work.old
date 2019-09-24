@@ -37,7 +37,7 @@
       <p>請求や送金する際にこちらを使ってもらうと助かります。<s>金くれ</s></p>
       <ul>
         <li><b>Kyash</b>: @samsepy</li>
-        <li><b>LINE Pay</b>: @todo1995 - 友達になる必要あり</li>
+        <li><b>LINE Pay</b>: @todo1995</li>
         <li><b>PayPay</b>: @samsepy</li>
         <li><b>NEM</b>: NAVLPQ-TXNVHP-GSXUE7-NEH5N4-QMPH2X-Q5VZ65-OWFI</li>
       </ul>
