@@ -9,6 +9,7 @@ html {
   font-family: 'Source Sans Pro', 'Helvetica Neue', 'Hiragino Kaku Gothic ProN',
     'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
   font-size: 18px;
+  color: #111c32;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;

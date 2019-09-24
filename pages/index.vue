@@ -81,6 +81,7 @@ h2 {
 }
 
 h1, h2 {
+  color: #96514d;
   font-weight: normal;
 }
 
@@ -101,7 +102,7 @@ li {
 }
 
 a {
-  color: #42b983;
+  color: #96514d;
 }
 
 .subscription {
