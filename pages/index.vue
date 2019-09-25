@@ -9,7 +9,7 @@
         <li><b>Name</b>: Hajime Todo (東度 基) - Also known as: todo, samsepy</li>
         <li><b>Job</b>: Software Engineer</li>
         <li><b>Career</b>:</li>
-        <ul class="nest-list">
+        <ul>
           <li>Kanazawa Institute of Technology (2014-2018) - Bachelor</li>
           <li>SOUYA Co.,Ltd. (2016-2017) - Part time Engineer</li>
           <li>OPEN8, Inc. (2018-2019) - Engineer</li>
@@ -107,10 +107,6 @@ a {
 
 .subscription {
   text-align: center;
-}
-
-.nest-list {
-  padding-left: 20px;
 }
 
 .wrapper {
