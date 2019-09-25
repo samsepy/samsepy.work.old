@@ -34,7 +34,7 @@
         <li><a href="https://www.amazon.jp/hz/wishlist/ls/13WQUGCYG4293?ref_=wl_share" target="_blank">Amazon</a> - wishlist</li>
       </ul>
       <h2>Pays</h2>
-      <p>請求や送金する際にこちらを使ってもらうと助かります。<s>金くれ</s></p>
+      <p>請求や送金する際にこちらを使ってもらうと助かります。</p>
       <ul>
         <li><b>Kyash</b>: @samsepy</li>
         <li><b>LINE Pay</b>: @todo1995</li>
