@@ -60,8 +60,6 @@ export default {
 <style>
 .container {
   margin: 0 auto;
-  margin-top: 60px;
-  margin-bottom: 30px;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -110,6 +108,6 @@ a {
 }
 
 .wrapper {
-  padding: 0 10px;
+  padding: 60px 10px 30px;
 }
 </style>
