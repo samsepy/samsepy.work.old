@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="wrapper">
-      <img src="../assets/images/logo.png" alt="自撮り">
+      <img class="logo" src="../assets/images/logo.png" alt="自撮り">
       <h1>samsepy</h1>
       <p class="subscription">1995年8月30日生まれ、24歳。<br>出身は石川で、現在は東京住まい。<br>海外で暮らしたい。</p>
       <h2>Profile</h2>
@@ -119,7 +119,7 @@ a {
   padding: 60px 10px 30px;
 }
 
-img {
+.logo {
   border-radius: 50%;
 }
 </style>
