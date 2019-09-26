@@ -82,6 +82,7 @@ h2 {
   margin-bottom: 20px;
   text-align: left;
 }
+
 h3 {
   margin-top: 18px;
   margin-bottom: 18px;
