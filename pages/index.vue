@@ -73,19 +73,16 @@ export default {
 }
 
 h1 {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin: 25px 0;
 }
 
 h2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0;
   text-align: left;
 }
 
 h3 {
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin: 18px 0;
   text-align: left;
 }
 
@@ -95,8 +92,7 @@ h1, h2 {
 }
 
 p {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin: 16px 0;
   text-align: left;
 }
 
