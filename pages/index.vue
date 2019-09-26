@@ -11,17 +11,17 @@
         <li><b>Career</b>:</li>
         <ul>
           <li>2014-2018 Kanazawa Institute of Technology - Bachelor</li>
-          <li>2016-2017 SOUYA Co.,Ltd. - Part time Engineer</li>
+          <li>2016-2017 SOUYA Co.,Ltd. - Part-time Engineer</li>
           <li>2018-2019 OPEN8, Inc.- Engineer</li>
           <li>2019 Sole proprietor - Engineer</li>
         </ul>
       </ul>
       <h2>Skills</h2>
       <ul>
-        <li><b>Programming languages</b>: Ruby, Python</li>
+        <li><b>Programming Languages</b>: Ruby, Python</li>
         <li><b>Frameworks</b>: Ruby on Rails</li>
         <li><b>Databases</b>: MySQL</li>
-        <li><b>Markup languages</b>: HTML5 + CSS3</li>
+        <li><b>Markup Languages</b>: HTML5 + CSS3</li>
         <li><b>Environments</b>: macOS, Git, GitHub</li>
       </ul>
       <h2>Works</h2>
