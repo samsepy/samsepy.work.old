@@ -3,7 +3,7 @@
     <div class="wrapper">
       <img class="logo" src="../assets/images/logo.png" alt="自撮り">
       <h1>samsepy</h1>
-      <p class="subscription">1995年8月30日生まれ、24歳。<br>出身は石川で、現在は東京住まい。<br>海外で暮らしたい。</p>
+      <p class="bio">1995年8月30日生まれ、24歳。<br>出身は石川で、現在は東京住まい。<br>海外で暮らしたい。</p>
       <h2>Profile</h2>
       <ul>
         <li><b>Name</b>: Hajime Todo (東度 基)</li>
@@ -112,7 +112,7 @@ a {
   color: #96514d;
 }
 
-.subscription {
+.bio {
   text-align: center;
 }
 
