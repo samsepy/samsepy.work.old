@@ -13,7 +13,7 @@
           <li>2014-2018 Kanazawa Institute of Technology - Bachelor</li>
           <li>2016-2017 SOUYA Co.,Ltd. - Part-time Engineer</li>
           <li>2018-2019 OPEN8, Inc.- Engineer</li>
-          <li>2019 Sole proprietor - Engineer</li>
+          <li>2019 Sole Proprietor - Engineer</li>
         </ul>
       </ul>
       <h2>Skills</h2>
