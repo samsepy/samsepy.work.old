@@ -11,10 +11,10 @@
         <li><b>Job</b>: Software Engineer</li>
         <li><b>Career</b>:</li>
         <ul>
-          <li><span class="term">2014-2018</span> <wbr><span>Kanazawa Institute of Technology - Bachelor</span></li>
-          <li><span class="term">2016-2017</span> <wbr><span>SOUYA Co.,Ltd. - Part-time Engineer</span></li>
-          <li><span class="term">2018-2019</span> <wbr><span>OPEN8, Inc.- Engineer</span></li>
-          <li><span class="term">2019</span> <wbr><span>Sole Proprietor - Engineer</span></li>
+          <li><span class="term">2014-2018</span>&nbsp;<wbr><span>Kanazawa Institute of Technology - Bachelor</span></li>
+          <li><span class="term">2016-2017</span>&nbsp;<wbr><span>SOUYA Co.,Ltd. - Part-time Engineer</span></li>
+          <li><span class="term">2018-2019</span>&nbsp;<wbr><span>OPEN8, Inc.- Engineer</span></li>
+          <li><span class="term">2019</span>&nbsp;<wbr><span>Sole Proprietor - Engineer</span></li>
         </ul>
       </ul>
       <h2>Skills</h2>
