@@ -26,7 +26,7 @@
       </ul>
       <h2>Works</h2>
       <h3><a href="https://github.com/samsepy/banhst.git">banhst</a></h3>
-      <p>任意のホストの通信を強制的に遮断するCLIツール。<br>SNS等で消耗している現代の若者におすすめ。</p>
+      <p>任意のホストの通信を強制的に遮断するCLIツール。SNS等で消耗している現代の若者におすすめ。</p>
       <h2>Sites</h2>
       <ul>
         <li><a href="https://github.com/samsepy">GitHub</a></li>
