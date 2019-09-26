@@ -49,8 +49,8 @@
       <ul>
         <li><a href="tel:+819062734866">Tel</a></li>
         <li><a href="mailto:samsepylot@gmail.com">Mail</a></li>
+        <li><a href="https://t.me/samsepy">Telegram</a></li>
         <li><a href="https://www.facebook.com/hajime.todo">Messenger</a></li>
-        <li><b>Telegram</b>: @samsepy</li>
       </ul>
     </div>
   </div>
