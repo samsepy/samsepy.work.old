@@ -118,4 +118,8 @@ a {
 .wrapper {
   padding: 60px 10px 30px;
 }
+
+img {
+  border-radius: 50%;
+}
 </style>
