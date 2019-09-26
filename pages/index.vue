@@ -6,14 +6,15 @@
       <p class="subscription">1995年8月30日生まれ、24歳。<br>出身は石川で、現在は東京住まい。<br>海外で暮らしたい。</p>
       <h2>Profile</h2>
       <ul>
-        <li><b>Name</b>: Hajime Todo (東度 基) - Also known as: todo, samsepy</li>
+        <li><b>Name</b>: Hajime Todo (東度 基)</li>
+        <li><b>Screen Name</b>: todo, samsepy</li>
         <li><b>Job</b>: Software Engineer</li>
         <li><b>Career</b>:</li>
         <ul>
-          <li>2014-2018 Kanazawa Institute of Technology - Bachelor</li>
-          <li>2016-2017 SOUYA Co.,Ltd. - Part-time Engineer</li>
-          <li>2018-2019 OPEN8, Inc.- Engineer</li>
-          <li>2019 Sole Proprietor - Engineer</li>
+          <li><span>2014-2018</span> <wbr><span>Kanazawa Institute of Technology - Bachelor</span></li>
+          <li><span>2016-2017</span> <wbr><span>SOUYA Co.,Ltd. - Part-time Engineer</span></li>
+          <li><span>2018-2019</span> <wbr><span>OPEN8, Inc.- Engineer</span></li>
+          <li><span>2019</span> <wbr><span>Sole Proprietor - Engineer</span></li>
         </ul>
       </ul>
       <h2>Skills</h2>
@@ -121,5 +122,9 @@ a {
 
 .logo {
   border-radius: 50%;
+}
+
+li span {
+  display: inline-block;
 }
 </style>
