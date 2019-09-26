@@ -21,7 +21,7 @@
         <li><b>Programming languages</b>: Ruby, Python</li>
         <li><b>Frameworks</b>: Ruby on Rails</li>
         <li><b>Databases</b>: MySQL</li>
-        <li><b>Markup languages</b>: HTML5+CSS3</li>
+        <li><b>Markup languages</b>: HTML5 + CSS3</li>
         <li><b>Environments</b>: macOS, Git, GitHub</li>
       </ul>
       <h2>Sites</h2>
