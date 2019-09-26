@@ -24,6 +24,9 @@
         <li><b>Markup languages</b>: HTML5 + CSS3</li>
         <li><b>Environments</b>: macOS, Git, GitHub</li>
       </ul>
+      <h2>Works</h2>
+      <h3><a href="https://github.com/samsepy/banhst.git">banhst</a></h3>
+      <p>任意のホストの通信を強制的に遮断するCLIツール。<br>SNSで消耗している現代の若者におすすめ。</p>
       <h2>Sites</h2>
       <ul>
         <li><a href="https://github.com/samsepy" target="_blank">GitHub</a></li>
@@ -75,6 +78,11 @@ h1 {
 h2 {
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: left;
+}
+h3 {
+  margin-top: 18px;
+  margin-bottom: 18px;
   text-align: left;
 }
 
