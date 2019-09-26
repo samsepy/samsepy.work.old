@@ -29,12 +29,12 @@
       <p>任意のホストの通信を強制的に遮断するCLIツール。<br>SNSで消耗している現代の若者におすすめ。</p>
       <h2>Sites</h2>
       <ul>
-        <li><a href="https://github.com/samsepy" target="_blank">GitHub</a></li>
-        <li><a href="http://samsepy.hatenablog.com/" target="_blank">はてなブログ</a></li>
-        <li><a href="https://alis.to/users/samsepy" target="_blank">ALIS</a></li>
-        <li><a href="https://twitter.com/samsepy"  target="_blank"><s>Twitter</s></a> - やめた</li>
-        <li><a href="https://www.facebook.com/hajime.todo" target="_blank">Facebook</a></li>
-        <li><a href="https://www.amazon.jp/hz/wishlist/ls/13WQUGCYG4293?ref_=wl_share" target="_blank">Amazon</a> - wishlist</li>
+        <li><a href="https://github.com/samsepy">GitHub</a></li>
+        <li><a href="http://samsepy.hatenablog.com/">はてなブログ</a></li>
+        <li><a href="https://alis.to/users/samsepy">ALIS</a></li>
+        <li><a href="https://twitter.com/samsepy"><s>Twitter</s></a> - やめた</li>
+        <li><a href="https://www.facebook.com/hajime.todo">Facebook</a></li>
+        <li><a href="https://www.amazon.jp/hz/wishlist/ls/13WQUGCYG4293?ref_=wl_share">Amazon</a> - wishlist</li>
       </ul>
       <h2>Pays</h2>
       <p>請求や送金する際にこちらを使ってもらうと助かります。</p>
@@ -48,7 +48,7 @@
       <ul>
         <li><b>Mail</b>: <a href="mailto:samsepylot@gmail.com">samsepylot@gmail.com</a></li>
         <li><b>Telegram</b>: @samsepy</li>
-        <li><a href="https://www.facebook.com/hajime.todo" target="_blank">Messenger</a></li>
+        <li><a href="https://www.facebook.com/hajime.todo">Messenger</a></li>
       </ul>
     </div>
   </div>
