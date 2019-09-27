@@ -41,7 +41,8 @@ export default {
   modules: [
     ['@nuxtjs/google-analytics', {
       id: 'UA-148741837-1'
-    }]
+    }],
+    '@nuxtjs/sitemap'
   ],
   /*
   ** Build configuration
@@ -52,5 +53,10 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://samsepy.work',
+    generate: true
   }
 }
