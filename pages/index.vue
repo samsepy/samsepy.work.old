@@ -6,9 +6,9 @@
       <p class="bio">1995年8月30日生まれ、24歳。<br>出身は石川で、現在は東京住まい。<br>海外で暮らしたい。</p>
       <h2>Profile</h2>
       <ul>
-        <li><span><b>Name</b>:&nbsp;</span><span>Hajime Todo (東度 基)</span></li>
-        <li><span><b>Screen Name</b>:&nbsp;</span><span>todo, samsepy</span></li>
-        <li><span><b>Job</b>:&nbsp;</span><span>Software Engineer</span></li>
+        <li><span><b>Name</b>:&nbsp;<wbr></span><span>Hajime Todo (東度 基)</span></li>
+        <li><span><b>Screen Name</b>:&nbsp;<wbr></span><span>todo, samsepy</span></li>
+        <li><span><b>Job</b>:&nbsp;<wbr></span><span>Software Engineer</span></li>
         <li><b>Career</b>:
           <ul>
             <li><span class="term">2014-2018</span>&nbsp;<wbr><span>Kanazawa Institute of Technology - Bachelor</span></li>
@@ -20,11 +20,11 @@
       </ul>
       <h2>Skills</h2>
       <ul>
-        <li><span><b>Programming Languages</b>:&nbsp;</span><span>Ruby, Python</span></li>
-        <li><span><b>Frameworks</b>:&nbsp;</span><span>Ruby on Rails</span></li>
-        <li><span><b>Databases</b>:&nbsp;</span><span>MySQL</span></li>
-        <li><span><b>Markup Languages</b>:&nbsp;</span><span>HTML5 + CSS3</span></li>
-        <li><span><b>Environments</b>:&nbsp;</span><span>macOS, Git, GitHub</span></li>
+        <li><span><b>Programming Languages</b>:&nbsp;<wbr></span><span>Ruby, Python</span></li>
+        <li><span><b>Frameworks</b>:&nbsp;<wbr></span><span>Ruby on Rails</span></li>
+        <li><span><b>Databases</b>:&nbsp;<wbr></span><span>MySQL</span></li>
+        <li><span><b>Markup Languages</b>:&nbsp;<wbr></span><span>HTML5 + CSS3</span></li>
+        <li><span><b>Environments</b>:&nbsp;<wbr></span><span>macOS, Git, GitHub</span></li>
       </ul>
       <h2>Works</h2>
       <h3><a href="https://github.com/samsepy/banhst.git">banhst</a></h3>
@@ -41,10 +41,10 @@
       <h2>Pays</h2>
       <p>請求や送金する際にこちらを使ってもらうと助かります。</p>
       <ul>
-        <li><span><b>Kyash</b>:&nbsp;</span><span>@samsepy</span></li>
-        <li><span><b>LINE Pay</b>:&nbsp;</span><span>@todo1995</span></li>
-        <li><span><b>PayPay</b>:&nbsp;</span><span>@samsepy</span></li>
-        <li><span><b>NEM</b>:&nbsp;</span><span>NAVLPQ-TXNVHP-GSXUE7-NEH5N4-QMPH2X-Q5VZ65-OWFI</span></li>
+        <li><span><b>Kyash</b>:&nbsp;<wbr></span><span>@samsepy</span></li>
+        <li><span><b>LINE Pay</b>:&nbsp;<wbr></span><span>@todo1995</span></li>
+        <li><span><b>PayPay</b>:&nbsp;<wbr></span><span>@samsepy</span></li>
+        <li><span><b>NEM</b>:&nbsp;<wbr></span><span>NAVLPQ-TXNVHP-GSXUE7-NEH5N4-QMPH2X-Q5VZ65-OWFI</span></li>
       </ul>
       <h2>Contacts</h2>
       <ul>
