@@ -75,9 +75,10 @@ export default {
   sitemap: {
     path: '/sitemap.xml',
     hostname: 'https://samsepy.work',
-    generate: true
+    generate: true,
+    routes: generateDynamicRoutes
   },
   generate: {
-    routes: generateDynamicRoutes,
+    routes: generateDynamicRoutes
   }
 }
