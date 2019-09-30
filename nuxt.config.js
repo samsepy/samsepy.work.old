@@ -1,6 +1,6 @@
 const { sourceFileArray } = require('./contents/blog/json/summary.json');
 
-function sourceFileNameToUrl(filepath) {
+const sourceFileNameToUrl = filepath => {
   const deleteExt = filepath.replace('.md', '')
   const fileName = deleteExt.split('/')[deleteExt.split('/').length - 1]
   const splitArray = fileName.split('-')
