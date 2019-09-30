@@ -1,0 +1,26 @@
+{
+  "fileMap": {
+    "contents/posts/json/2019-09-30-bar.json": {
+      "title": "ura",
+      "created_at": "2018-01-01T00:00:00.000Z",
+      "dir": "contents/posts/json",
+      "base": "2019-09-30-bar.json",
+      "ext": ".json",
+      "sourceBase": "2019-09-30-bar.md",
+      "sourceExt": ".md"
+    },
+    "contents/posts/json/2019-09-30-hoge.json": {
+      "title": "記事のタイトル",
+      "created_at": "2018-01-01T00:00:00.000Z",
+      "dir": "contents/posts/json",
+      "base": "2019-09-30-hoge.json",
+      "ext": ".json",
+      "sourceBase": "2019-09-30-hoge.md",
+      "sourceExt": ".md"
+    }
+  },
+  "sourceFileArray": [
+    "contents/posts/markdown/2019-09-30-bar.md",
+    "contents/posts/markdown/2019-09-30-hoge.md"
+  ]
+}
