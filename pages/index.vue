@@ -71,6 +71,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+  max-width: 750px;
 }
 
 h1 {
