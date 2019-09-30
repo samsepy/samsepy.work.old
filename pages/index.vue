@@ -31,6 +31,7 @@
       <p>任意のホストの通信を強制的に遮断するCLIツール。SNS等で消耗している現代の若者におすすめ。</p>
       <h2>Sites</h2>
       <ul>
+        <li><a href="./blog/">Blog</a> - 準備中</li>
         <li><a href="https://github.com/samsepy">GitHub</a></li>
         <li><a href="http://samsepy.hatenablog.com/">はてなブログ</a></li>
         <li><a href="https://alis.to/users/samsepy">ALIS</a></li>
