@@ -1,18 +1,27 @@
 {
   "fileMap": {
-    "contents/posts/json/2019-09-30-bar.json": {
-      "title": "ura",
-      "created_at": "2018-01-01T00:00:00.000Z",
-      "dir": "contents/posts/json",
+    "contents/blog/json/2019-09-30-foo.json": {
+      "title": "foo",
+      "created_at": "2019-09-30T00:00:00.000Z",
+      "dir": "contents/blog/json",
+      "base": "2019-09-30-foo.json",
+      "ext": ".json",
+      "sourceBase": "2019-09-30-foo.md",
+      "sourceExt": ".md"
+    },
+    "contents/blog/json/2019-09-30-bar.json": {
+      "title": "bar",
+      "created_at": "2019-09-30T00:00:00.000Z",
+      "dir": "contents/blog/json",
       "base": "2019-09-30-bar.json",
       "ext": ".json",
       "sourceBase": "2019-09-30-bar.md",
       "sourceExt": ".md"
     },
-    "contents/posts/json/2019-09-30-hoge.json": {
-      "title": "記事のタイトル",
-      "created_at": "2018-01-01T00:00:00.000Z",
-      "dir": "contents/posts/json",
+    "contents/blog/json/2019-09-30-hoge.json": {
+      "title": "hoge",
+      "created_at": "2019-09-30T00:00:00.000Z",
+      "dir": "contents/blog/json",
       "base": "2019-09-30-hoge.json",
       "ext": ".json",
       "sourceBase": "2019-09-30-hoge.md",
@@ -20,7 +29,8 @@
     }
   },
   "sourceFileArray": [
-    "contents/posts/markdown/2019-09-30-bar.md",
-    "contents/posts/markdown/2019-09-30-hoge.md"
+    "contents/blog/markdown/2019-09-30-bar.md",
+    "contents/blog/markdown/2019-09-30-foo.md",
+    "contents/blog/markdown/2019-09-30-hoge.md"
   ]
 }
