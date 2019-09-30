@@ -1,3 +1,18 @@
+const { sourceFileArray } = require('./contents/blog/json/summary.json');
+
+function sourceFileNameToUrl(filepath) {
+  const deleteExt = filepath.replace('.md', '')
+  const fileName = deleteExt.split('/')[deleteExt.split('/').length - 1]
+  const splitArray = fileName.split('-')
+  return `/posts/${splitArray.slice(0, 3).join('-')}/${splitArray.slice(3,).join('-')}`
+};
+
+const generateDynamicRoutes = callback => {
+  const routes = sourceFileArray.map(sourceFileName => {
+    return sourceFileNameToUrl(sourceFileName);
+  });
+  callback(null, routes);
+};
 
 export default {
   mode: 'universal',
@@ -61,5 +76,8 @@ export default {
     path: '/sitemap.xml',
     hostname: 'https://samsepy.work',
     generate: true
+  },
+  generate: {
+    routes: generateDynamicRoutes,
   }
 }
