@@ -16,15 +16,9 @@ export default {
         return Object.assign({}, require(`~/contents/blog/json/${params.date}-${params.slug}.json`), { params });
     },
     head() {
-        const title = `${this.title} - samsepy.work`;
-        const url = `https://samsepy.work/blog/${this.params.date}/${this.params.slug}/`;
+        const title = `${this.title} - samsepy`;
         return {
-            title: title,
-            meta: [
-                { hid: 'og:url', property: 'og:url', content: url },
-                { hid: 'og:title', property: 'og:title', content: title }
-            ],
-            link: [{ rel: 'canonical', href: url }],
+            title: title
         };
     },
 };
