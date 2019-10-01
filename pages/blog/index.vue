@@ -3,15 +3,10 @@
     <div class="wrapper">
       <section>
         <h1>Blog</h1>
-        <article>
-          <h2>gyoe-</h2>
-          <p>ほげええええええええええええええええええええええええええええええええええええええええええええええええええええええええええええええ</p>
-          <time>2019-07-13</time>
-        </article>
-        <article>
-          <h2>poyo-</h2>
-          <p>ぽよおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお</p>
-          <time>2019-07-13</time>
+        <article v-for="content in fileMap" v-bind:key="content.id">
+          <h2>{{ content.title}}</h2>
+          <p>{{ content.preview }}</p>
+          <time>{{ content.created_at }}</time>
         </article>
       </section>
     </div>
