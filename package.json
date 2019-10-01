@@ -9,7 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "processmd": "processmd contents/blog/markdown/*.md --outputDir contents/blog/json --summaryOutput contents/blog/json/summary.json"
+    "processmd": "processmd contents/blog/markdown/*.md --preview 160 --outputDir contents/blog/json --summaryOutput contents/blog/json/summary.json"
   },
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.2.0",
