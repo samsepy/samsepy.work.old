@@ -18,6 +18,14 @@
   </div>
 </template>
 
+<script>
+// import { sourceFileArray } from '../../contents/blog/json/summary.json';
+export default {
+  asyncData() {
+    return Object.assign({}, require(`~/contents/blog/json/summary.json`));
+  }
+}
+</script>
 
 <style>
 .container {
