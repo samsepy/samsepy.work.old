@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="wrapper">
-      <article>
+      <section>
         <h1>Blog</h1>
         <article>
           <h2>gyoe-</h2>
@@ -11,7 +11,7 @@
           <h2>poyo-</h2>
           <p>ぽよおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお</p>
         </article>
-      </article>
+      </section>
     </div>
   </div>
 </template>
