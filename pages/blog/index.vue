@@ -17,7 +17,7 @@
 import summaryObject from '../../contents/blog/json/summary.json';
 
 const updateSummaryObject = () => {
-  for (var currentFile of Object.keys(summaryObject.fileMap)) {
+  for (const currentFile of Object.keys(summaryObject.fileMap)) {
     const fileCreatedAt = summaryObject.fileMap[currentFile].created_at;
     summaryObject.fileMap[currentFile].created_at = formatDate(fileCreatedAt);
   }
