@@ -14,10 +14,28 @@
 </template>
 
 <script>
-// import { sourceFileArray } from '../../contents/blog/json/summary.json';
+import summaryObject from '../../contents/blog/json/summary.json';
+
+const updateSummaryObject = () => {
+  for (var currentFile of Object.keys(summaryObject.fileMap)) {
+    const fileCreatedAt = summaryObject.fileMap[currentFile].created_at;
+    summaryObject.fileMap[currentFile].created_at = formatDate(fileCreatedAt);
+  }
+}
+
+const formatDate = date => {
+  // todo: Date型がString型に変換されない
+  const d = new Date(date);
+  const year = d.getFullYear;
+  const month = d.getMonth;
+  const day = d.getDay;
+  return `${year}-${month}-${day}`;
+}
+
 export default {
   asyncData() {
-    return Object.assign({}, require(`~/contents/blog/json/summary.json`));
+    updateSummaryObject();
+    return Object.assign({}, summaryObject);
   }
 }
 </script>
