@@ -57,7 +57,6 @@ h2 {
   text-align: left;
 }
 
-
 h1, h2 {
   color: #96514d;
   font-weight: normal;
