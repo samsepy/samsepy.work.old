@@ -9,7 +9,7 @@ html {
   font-family: sans-serif;
   font-size: 18px;
   font-weight: 300;
-  color: #111c32;
+  color: #696969;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
