@@ -2,15 +2,15 @@
   <div class="container">
     <div class="wrapper">
       <img class="logo" src="../assets/images/logo.png" alt="自撮り">
-      <h1>samsepy</h1>
+      <h1 class="title">samsepy</h1>
       <p class="bio">1995年8月30日生まれ、24歳。<br>出身は石川で、現在は東京住まい。<br>海外で暮らしたい。</p>
       <h2>Profile</h2>
-      <ul>
+      <ul class="list">
         <li><span><b>Name</b>:&nbsp;<wbr></span><span>Hajime Todo (東度 基)</span></li>
         <li><span><b>Screen Name</b>:&nbsp;<wbr></span><span>todo, samsepy</span></li>
         <li><span><b>Job</b>:&nbsp;<wbr></span><span>Software Engineer</span></li>
         <li><b>Career</b>:
-          <ul>
+          <ul class="list">
             <li><span class="term">2014-2018</span>&nbsp;<wbr><span>Kanazawa Institute of Technology - Bachelor</span></li>
             <li><span class="term">2016-2017</span>&nbsp;<wbr><span>SOUYA Co.,Ltd. - Part-time Engineer</span></li>
             <li><span class="term">2018-2019</span>&nbsp;<wbr><span>OPEN8, Inc.- Engineer</span></li>
@@ -19,7 +19,7 @@
         </li>
       </ul>
       <h2>Skills</h2>
-      <ul>
+      <ul class="list">
         <li><span><b>Programming Languages</b>:&nbsp;<wbr></span><span>Ruby, Python</span></li>
         <li><span><b>Frameworks</b>:&nbsp;<wbr></span><span>Ruby on Rails</span></li>
         <li><span><b>Databases</b>:&nbsp;<wbr></span><span>MySQL</span></li>
@@ -30,7 +30,7 @@
       <h3><a href="https://github.com/samsepy/banhst.git">banhst</a></h3>
       <p>任意のホストの通信を強制的に遮断するCLIツール。SNS等で消耗している現代の若者におすすめ。</p>
       <h2>Sites</h2>
-      <ul>
+      <ul class="list">
         <li><a href="/blog/">Blog</a> - 準備中</li>
         <li><a href="https://github.com/samsepy">GitHub</a></li>
         <li><a href="http://samsepy.hatenablog.com/">はてなブログ</a></li>
@@ -41,14 +41,14 @@
       </ul>
       <h2>Pays</h2>
       <p>請求や送金する際にこちらを使ってもらうと助かります。</p>
-      <ul>
+      <ul class="list">
         <li><span><b>Kyash</b>:&nbsp;<wbr></span><span>@samsepy</span></li>
         <li><span><b>LINE Pay</b>:&nbsp;<wbr></span><span>@todo1995</span></li>
         <li><span><b>PayPay</b>:&nbsp;<wbr></span><span>@samsepy</span></li>
         <li><span><b>NEM</b>:&nbsp;<wbr></span><span>NAVLPQ-TXNVHP-GSXUE7-NEH5N4-QMPH2X-Q5VZ65-OWFI</span></li>
       </ul>
       <h2>Contacts</h2>
-      <ul>
+      <ul class="list">
         <li><a href="tel:+819062734866">Tel</a></li>
         <li><a href="mailto:samsepylot@gmail.com">Mail</a></li>
         <li><a href="https://t.me/samsepy">Telegram</a></li>
@@ -65,64 +65,20 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  max-width: 750px;
-}
-
-h1 {
-  margin: 25px 0;
-}
-
-h2 {
-  margin: 20px 0;
-  text-align: left;
-}
-
-h3 {
-  margin: 18px 0;
-  text-align: left;
-}
-
-h1, h2 {
-  color: #96514d;
-  font-weight: normal;
-}
-
-p {
-  margin: 16px 0;
-  text-align: left;
-}
-
-ul {
+.list {
   list-style-type: none;
   padding: 0;
   text-align: left
-}
-
-li {
-  margin: 5px 0;
-}
-
-a {
-  color: #96514d;
 }
 
 .bio {
   text-align: center;
 }
 
-.wrapper {
-  padding: 60px 10px 30px;
-}
-
 .logo {
+  display: block;
   border-radius: 50%;
+  margin: 0 auto;
 }
 
 li span {
@@ -131,5 +87,9 @@ li span {
 
 .term {
   color: #96514d;
+}
+
+.title {
+  text-align: center;
 }
 </style>

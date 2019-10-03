@@ -3,11 +3,11 @@
     <div class="wrapper">
       <section>
         <h1>Blog</h1>
-        <article v-for="content in fileMap" v-bind:key="content.id">
-          <nuxt-link :to="{ path: '/blog/' + content.created_at + '/' + content.title }">
+        <article v-for="content in fileMap" v-bind:key="content.id" class="article-link">
+          <nuxt-link :to="{ path: '/blog/' + content.created_at + '/' + content.title }" class="link">
             <h2>{{ content.title}}</h2>
             <p>{{ content.preview }}</p>
-            <time>{{ content.created_at }}</time>
+            <time class="created-at">{{ content.created_at }}</time>
           </nuxt-link>
         </article>
       </section>
@@ -42,45 +42,16 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  max-width: 750px;
-}
-
-h1 {
-  margin: 25px 0;
-}
-
-h2 {
-  margin: 20px 0;
-  text-align: left;
-}
-
-h1, h2 {
-  color: #96514d;
-  font-weight: normal;
-}
-
-p {
-  margin: 16px 0;
-  text-align: left;
-}
-
-a {
+.link {
   color: #696969;
   text-decoration: none;
 }
 
-article:hover {
+.article-link:hover {
   text-decoration: underline;
 }
 
-.wrapper {
-  padding: 30px 10px;
-}
-
-time {
+.created-at {
   font-weight: bold;
 }
 </style>

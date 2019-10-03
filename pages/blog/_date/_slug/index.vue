@@ -26,53 +26,6 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 @import 'assets/css/monokai.css';
-
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  max-width: 750px;
-}
-
-h1 {
-  margin: 25px 0;
-}
-
-h2 {
-  margin: 20px 0;
-  text-align: left;
-}
-
-h3 {
-  margin: 18px 0;
-  text-align: left;
-}
-
-h1, h2 {
-  color: #96514d;
-  font-weight: normal;
-}
-
-p {
-  margin: 16px 0;
-  text-align: left;
-}
-
-ul {
-  padding: 0;
-  text-align: left
-}
-
-li {
-  margin: 5px 0;
-}
-
-a {
-  color: #96514d;
-}
-
-.wrapper {
-  padding: 60px 10px 30px;
-}
 </style>
