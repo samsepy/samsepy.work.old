@@ -2,7 +2,7 @@
   <div class="container">
     <div class="wrapper">
       <article>
-        <h1>{{ title }}</h1>
+        <h1 class="title">{{ title }}</h1>
         <div class="post-meta"><time>{{ params.date }}</time></div>
         <div v-html="bodyHtml"></div>
       </article>
@@ -30,4 +30,14 @@ export default {
 
 <style scoped>
 @import 'assets/css/monokai.css';
+
+.title {
+  text-align: center;
+}
+
+.post-meta {
+  font-size: 0.8em;
+  margin-bottom: 20px;
+  text-align: right;
+}
 </style>

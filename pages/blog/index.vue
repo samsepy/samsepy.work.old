@@ -2,12 +2,12 @@
   <div class="container">
     <div class="wrapper">
       <section>
-        <h1>Blog</h1>
+        <h1>Archives</h1>
         <article v-for="content in fileMap" v-bind:key="content.id">
           <nuxt-link :to="{ path: '/blog/' + content.created_at + '/' + content.title }" class="link">
             <h2>{{ content.title}}</h2>
             <p>{{ content.preview }}</p>
-            <time class="created-at">{{ content.created_at }}</time>
+            <div class="post-meta"><time>{{ content.created_at }}</time></div>
           </nuxt-link>
         </article>
       </section>
@@ -59,5 +59,11 @@ export default {
 
 .created-at {
   font-weight: bold;
+}
+
+.post-meta {
+  font-size: 0.8em;
+  margin: 16px 0;
+  text-align: left;
 }
 </style>
