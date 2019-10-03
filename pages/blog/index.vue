@@ -57,10 +57,6 @@ h2 {
   text-align: left;
 }
 
-h3 {
-  margin: 18px 0;
-  text-align: left;
-}
 
 h1, h2 {
   color: #96514d;
@@ -72,16 +68,6 @@ p {
   text-align: left;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  text-align: left
-}
-
-li {
-  margin: 5px 0;
-}
-
 a {
   color: #696969;
   text-decoration: none;
@@ -91,24 +77,8 @@ a:hover {
   text-decoration: underline;
 }
 
-.bio {
-  text-align: center;
-}
-
 .wrapper {
   padding: 30px 10px;
-}
-
-.logo {
-  border-radius: 50%;
-}
-
-li span {
-  display: inline-block;
-}
-
-.term {
-  color: #96514d;
 }
 
 time {
