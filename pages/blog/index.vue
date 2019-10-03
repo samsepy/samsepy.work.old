@@ -28,8 +28,8 @@ const updateSummaryObject = () => {
 const formatDate = date => {
   const d = new Date(date);
   const year = d.getFullYear();
-  const month = ('0' + d.getMonth()).slice(-2);
-  const day = ('0' + d.getDay()).slice(-2);
+  const month = ('0' + (d.getMonth() + 1)).slice(-2);
+  const day = ('0' + d.getDate()).slice(-2);
   return `${year}-${month}-${day}`;
 }
 
