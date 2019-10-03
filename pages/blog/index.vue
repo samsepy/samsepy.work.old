@@ -83,7 +83,12 @@ li {
 }
 
 a {
-  color: #96514d;
+  color: #696969;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .bio {
