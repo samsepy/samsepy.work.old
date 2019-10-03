@@ -1,9 +1,11 @@
 <template>
   <div class="container">
     <div class="wrapper">
-      <h1>{{ title }}</h1>
-      <div class="post-meta"><time>{{ params.date }}</time></div>
-      <div v-html="bodyHtml"></div>
+      <article>
+        <h1>{{ title }}</h1>
+        <div class="post-meta"><time>{{ params.date }}</time></div>
+        <div v-html="bodyHtml"></div>
+      </article>
     </div>
   </div>   
 </template>
