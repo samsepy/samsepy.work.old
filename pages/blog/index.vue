@@ -37,8 +37,13 @@ export default {
   asyncData() {
     updateSummaryObject();
     return Object.assign({}, summaryObject);
+  },
+  head() {
+    return {
+      title: 'blog - samsepy'
+    };
   }
-}
+};
 </script>
 
 <style scoped>
