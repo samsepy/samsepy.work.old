@@ -4,9 +4,11 @@
       <section>
         <h1>Blog</h1>
         <article v-for="content in fileMap" v-bind:key="content.id">
-          <h2>{{ content.title}}</h2>
-          <p>{{ content.preview }}</p>
-          <time>{{ content.created_at }}</time>
+          <nuxt-link :to="{ path: '/blog/' + content.created_at + '/' + content.title }">
+            <h2>{{ content.title}}</h2>
+            <p>{{ content.preview }}</p>
+            <time>{{ content.created_at }}</time>
+          </nuxt-link>
         </article>
       </section>
     </div>
