@@ -73,7 +73,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+article:hover {
   text-decoration: underline;
 }
 
