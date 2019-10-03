@@ -3,7 +3,7 @@
     <div class="wrapper">
       <section>
         <h1>Blog</h1>
-        <article v-for="content in fileMap" v-bind:key="content.id" class="article-link">
+        <article v-for="content in fileMap" v-bind:key="content.id">
           <nuxt-link :to="{ path: '/blog/' + content.created_at + '/' + content.title }" class="link">
             <h2>{{ content.title}}</h2>
             <p>{{ content.preview }}</p>
@@ -43,11 +43,12 @@ export default {
 
 <style scoped>
 .link {
+  display: block;
   color: #696969;
   text-decoration: none;
 }
 
-.article-link:hover {
+.link:hover {
   text-decoration: underline;
 }
 
