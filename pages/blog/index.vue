@@ -24,11 +24,10 @@ const updateSummaryObject = () => {
 }
 
 const formatDate = date => {
-  // todo: Date型がString型に変換されない
   const d = new Date(date);
-  const year = d.getFullYear;
-  const month = d.getMonth;
-  const day = d.getDay;
+  const year = d.getFullYear();
+  const month = ('0' + d.getMonth()).slice(-2);
+  const day = ('0' + d.getDay()).slice(-2);
   return `${year}-${month}-${day}`;
 }
 
