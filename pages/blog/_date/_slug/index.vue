@@ -16,9 +16,13 @@
 import { sourceFileArray } from "../../../../contents/blog/json/summary.json";
 export default {
   validate({ params }) {
-    return sourceFileArray.includes(
-      `contents/blog/markdown/${params.date}-${params.slug}.md`
-    );
+    return sourceFileArray
+      .map(sourceFile => {
+        return sourceFile.normalize();
+      })
+      .includes(
+        `contents/blog/markdown/${params.date}-${params.slug}.md`.normalize()
+      );
   },
   asyncData({ params }) {
     return Object.assign(
