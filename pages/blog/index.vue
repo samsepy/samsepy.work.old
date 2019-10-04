@@ -4,10 +4,15 @@
       <section>
         <h1>Archives</h1>
         <article v-for="content in fileMap" v-bind:key="content.id">
-          <nuxt-link :to="{ path: '/blog/' + content.created_at + '/' + content.title }" class="link">
+          <nuxt-link
+            :to="{ path: '/blog/' + content.created_at + '/' + content.title }"
+            class="link"
+          >
             <h2>{{ content.title}}</h2>
             <p>{{ content.preview }}</p>
-            <div class="post-meta"><time>{{ content.created_at }}</time></div>
+            <div class="post-meta">
+              <time>{{ content.created_at }}</time>
+            </div>
           </nuxt-link>
         </article>
       </section>
@@ -16,22 +21,22 @@
 </template>
 
 <script>
-import summaryObject from '../../contents/blog/json/summary.json';
+import summaryObject from "../../contents/blog/json/summary.json";
 
 const updateSummaryObject = () => {
   for (const currentFile of Object.keys(summaryObject.fileMap)) {
     const fileCreatedAt = summaryObject.fileMap[currentFile].created_at;
     summaryObject.fileMap[currentFile].created_at = formatDate(fileCreatedAt);
   }
-}
+};
 
 const formatDate = date => {
   const d = new Date(date);
   const year = d.getFullYear();
-  const month = ('0' + (d.getMonth() + 1)).slice(-2);
-  const day = ('0' + d.getDate()).slice(-2);
+  const month = ("0" + (d.getMonth() + 1)).slice(-2);
+  const day = ("0" + d.getDate()).slice(-2);
   return `${year}-${month}-${day}`;
-}
+};
 
 export default {
   asyncData() {
@@ -40,7 +45,7 @@ export default {
   },
   head() {
     return {
-      title: 'blog - samsepy'
+      title: "blog - samsepy"
     };
   }
 };
