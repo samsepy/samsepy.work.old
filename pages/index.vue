@@ -13,22 +13,22 @@
         <li>
           <span>
             <span class="item">Name</span>:&nbsp;
+            <wbr />
           </span>
-          <wbr />
           <span>Hajime Todo (東度 基)</span>
         </li>
         <li>
           <span>
             <span class="item">Screen Name</span>:&nbsp;
+            <wbr />
           </span>
-          <wbr />
           <span>todo, samsepy</span>
         </li>
         <li>
           <span>
             <span class="item">Job</span>:&nbsp;
+            <wbr />
           </span>
-          <wbr />
           <span>Software Engineer</span>
         </li>
         <li>
@@ -62,36 +62,36 @@
         <li>
           <span>
             <span class="item">Programming Languages</span>:&nbsp;
+            <wbr />
           </span>
-          <wbr />
           <span>Ruby, Python</span>
         </li>
         <li>
           <span>
             <span class="item">Frameworks</span>:&nbsp;
+            <wbr />
           </span>
-          <wbr />
           <span>Ruby on Rails</span>
         </li>
         <li>
           <span>
             <span class="item">Databases</span>:&nbsp;
+            <wbr />
           </span>
-          <wbr />
           <span>MySQL</span>
         </li>
         <li>
           <span>
             <span class="item">Markup Languages</span>:&nbsp;
+            <wbr />
           </span>
-          <wbr />
           <span>HTML5 + CSS3</span>
         </li>
         <li>
           <span>
             <span class="item">Environments</span>:&nbsp;
+            <wbr />
           </span>
-          <wbr />
           <span>macOS, Git, GitHub</span>
         </li>
       </ul>
@@ -132,29 +132,29 @@
         <li>
           <span>
             <span class="item">Kyash</span>:&nbsp;
+            <wbr />
           </span>
-          <wbr />
           <span>@samsepy</span>
         </li>
         <li>
           <span>
             <span class="item">LINE Pay</span>:&nbsp;
+            <wbr />
           </span>
-          <wbr />
           <span>@todo1995</span>
         </li>
         <li>
           <span>
             <span class="item">PayPay</span>:&nbsp;
+            <wbr />
           </span>
-          <wbr />
           <span>@samsepy</span>
         </li>
         <li>
           <span>
             <span class="item">NEM</span>:&nbsp;
+            <wbr />
           </span>
-          <wbr />
           <span>NAVLPQ-TXNVHP-GSXUE7-NEH5N4-QMPH2X-Q5VZ65-OWFI</span>
         </li>
       </ul>
