@@ -12,27 +12,27 @@
       <ul class="list">
         <li>
           <span>
-            <b>Name</b>:&nbsp;
+            <span class="item">Name</span>:&nbsp;
             <wbr />
           </span>
           <span>Hajime Todo (東度 基)</span>
         </li>
         <li>
           <span>
-            <b>Screen Name</b>:&nbsp;
+            <span class="item">Screen Name</span>:&nbsp;
             <wbr />
           </span>
           <span>todo, samsepy</span>
         </li>
         <li>
           <span>
-            <b>Job</b>:&nbsp;
+            <span class="item">Job</span>:&nbsp;
             <wbr />
           </span>
           <span>Software Engineer</span>
         </li>
         <li>
-          <b>Career</b>:
+          <span class="item">Career</span>:
           <ul class="list">
             <li>
               <span class="term">2014-2018</span>&nbsp;
@@ -61,35 +61,35 @@
       <ul class="list">
         <li>
           <span>
-            <b>Programming Languages</b>:&nbsp;
+            <span class="item">Programming Languages</span>:&nbsp;
             <wbr />
           </span>
           <span>Ruby, Python</span>
         </li>
         <li>
           <span>
-            <b>Frameworks</b>:&nbsp;
+            <span class="item">Frameworks</span>:&nbsp;
             <wbr />
           </span>
           <span>Ruby on Rails</span>
         </li>
         <li>
           <span>
-            <b>Databases</b>:&nbsp;
+            <span class="item">Databases</span>:&nbsp;
             <wbr />
           </span>
           <span>MySQL</span>
         </li>
         <li>
           <span>
-            <b>Markup Languages</b>:&nbsp;
+            <span class="item">Markup Languages</span>:&nbsp;
             <wbr />
           </span>
           <span>HTML5 + CSS3</span>
         </li>
         <li>
           <span>
-            <b>Environments</b>:&nbsp;
+            <span class="item">Environments</span>:&nbsp;
             <wbr />
           </span>
           <span>macOS, Git, GitHub</span>
@@ -116,7 +116,7 @@
         </li>
         <li>
           <a href="https://twitter.com/samsepy">
-            <s>Twitter</s>
+            <span class="strike-through">Twitter</span>
           </a> - やめた
         </li>
         <li>
@@ -131,28 +131,28 @@
       <ul class="list">
         <li>
           <span>
-            <b>Kyash</b>:&nbsp;
+            <span class="item">Kyash</span>:&nbsp;
             <wbr />
           </span>
           <span>@samsepy</span>
         </li>
         <li>
           <span>
-            <b>LINE Pay</b>:&nbsp;
+            <span class="item">LINE Pay</span>:&nbsp;
             <wbr />
           </span>
           <span>@todo1995</span>
         </li>
         <li>
           <span>
-            <b>PayPay</b>:&nbsp;
+            <span class="item">PayPay</span>:&nbsp;
             <wbr />
           </span>
           <span>@samsepy</span>
         </li>
         <li>
           <span>
-            <b>NEM</b>:&nbsp;
+            <span class="item">NEM</span>:&nbsp;
             <wbr />
           </span>
           <span>NAVLPQ-TXNVHP-GSXUE7-NEH5N4-QMPH2X-Q5VZ65-OWFI</span>
@@ -210,5 +210,13 @@ li span {
 
 .title {
   text-align: center;
+}
+
+.item {
+  font-weight: bold;
+}
+
+.strike-through {
+  text-decoration: line-through;
 }
 </style>
