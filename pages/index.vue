@@ -12,45 +12,45 @@
       <ul class="list">
         <li>
           <span>
-            <span class="item">Name</span>:&nbsp;
-            <wbr />
+            <span class="item">Name</span>:
           </span>
+          <wbr />
           <span>Hajime Todo (東度 基)</span>
         </li>
         <li>
           <span>
-            <span class="item">Screen Name</span>:&nbsp;
-            <wbr />
+            <span class="item">Screen Name</span>:
           </span>
+          <wbr />
           <span>todo, samsepy</span>
         </li>
         <li>
           <span>
-            <span class="item">Job</span>:&nbsp;
-            <wbr />
+            <span class="item">Job</span>:
           </span>
+          <wbr />
           <span>Software Engineer</span>
         </li>
         <li>
           <span class="item">Career</span>:
           <ul class="list">
             <li>
-              <span class="term">2014-2018</span>&nbsp;
+              <span class="term">2014-2018</span>
               <wbr />
               <span>Kanazawa Institute of Technology - Bachelor</span>
             </li>
             <li>
-              <span class="term">2016-2017</span>&nbsp;
+              <span class="term">2016-2017</span>
               <wbr />
               <span>SOUYA Co.,Ltd. - Part time Engineer</span>
             </li>
             <li>
-              <span class="term">2018-2019</span>&nbsp;
+              <span class="term">2018-2019</span>
               <wbr />
               <span>OPEN8 Inc. - Engineer</span>
             </li>
             <li>
-              <span class="term">2019</span>&nbsp;
+              <span class="term">2019</span>
               <wbr />
               <span>Sole Proprietor - Engineer</span>
             </li>
@@ -61,37 +61,37 @@
       <ul class="list">
         <li>
           <span>
-            <span class="item">Programming Languages</span>:&nbsp;
-            <wbr />
+            <span class="item">Programming Languages</span>:
           </span>
+          <wbr />
           <span>Ruby, Python</span>
         </li>
         <li>
           <span>
-            <span class="item">Frameworks</span>:&nbsp;
-            <wbr />
+            <span class="item">Frameworks</span>:
           </span>
+          <wbr />
           <span>Ruby on Rails</span>
         </li>
         <li>
           <span>
-            <span class="item">Databases</span>:&nbsp;
-            <wbr />
+            <span class="item">Databases</span>:
           </span>
+          <wbr />
           <span>MySQL</span>
         </li>
         <li>
           <span>
-            <span class="item">Markup Languages</span>:&nbsp;
-            <wbr />
+            <span class="item">Markup Languages</span>:
           </span>
+          <wbr />
           <span>HTML5 + CSS3</span>
         </li>
         <li>
           <span>
-            <span class="item">Environments</span>:&nbsp;
-            <wbr />
+            <span class="item">Environments</span>:
           </span>
+          <wbr />
           <span>macOS, Git, GitHub</span>
         </li>
       </ul>
@@ -131,30 +131,30 @@
       <ul class="list">
         <li>
           <span>
-            <span class="item">Kyash</span>:&nbsp;
-            <wbr />
+            <span class="item">Kyash</span>:
           </span>
+          <wbr />
           <span>@samsepy</span>
         </li>
         <li>
           <span>
-            <span class="item">LINE Pay</span>:&nbsp;
-            <wbr />
+            <span class="item">LINE Pay</span>:
           </span>
+          <wbr />
           <span>@todo1995</span>
         </li>
         <li>
           <span>
-            <span class="item">PayPay</span>:&nbsp;
-            <wbr />
+            <span class="item">PayPay</span>:
           </span>
+          <wbr />
           <span>@samsepy</span>
         </li>
         <li>
           <span>
-            <span class="item">NEM</span>:&nbsp;
-            <wbr />
+            <span class="item">NEM</span>:
           </span>
+          <wbr />
           <span>NAVLPQ-TXNVHP-GSXUE7-NEH5N4-QMPH2X-Q5VZ65-OWFI</span>
         </li>
       </ul>
