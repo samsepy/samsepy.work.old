@@ -4,10 +4,7 @@
       <section>
         <h1>Archives</h1>
         <article v-for="content in fileMap" v-bind:key="content.id">
-          <nuxt-link
-            :to="{ path: '/blog/' + content.created_at + '/' + content.title }"
-            class="link"
-          >
+          <nuxt-link :to="{ path: `/blog/${content.created_at}/${content.title}`}" class="link">
             <h2>{{ content.title}}</h2>
             <p>{{ content.preview }}</p>
             <div class="post-meta">
@@ -21,7 +18,7 @@
 </template>
 
 <script>
-import summaryObject from "../../contents/blog/json/summary.json";
+import summaryObject from "~/contents/blog/json/summary.json";
 
 const updateSummaryObject = () => {
   for (const currentFile of Object.keys(summaryObject.fileMap)) {

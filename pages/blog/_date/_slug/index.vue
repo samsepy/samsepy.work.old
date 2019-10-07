@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { sourceFileArray } from "../../../../contents/blog/json/summary.json";
+import { sourceFileArray } from "~/contents/blog/json/summary.json";
 export default {
   validate({ params }) {
     return sourceFileArray
