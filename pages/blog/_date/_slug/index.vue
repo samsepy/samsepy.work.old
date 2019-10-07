@@ -6,7 +6,7 @@
         <div class="post-meta">
           <time>{{ params.date }}</time>
         </div>
-        <div v-html="bodyHtml"></div>
+        <div v-html="bodyHtml" />
       </article>
     </div>
   </div>
