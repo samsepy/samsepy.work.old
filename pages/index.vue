@@ -164,7 +164,7 @@
           <a href="tel:+819062734866">Tel</a>
         </li>
         <li>
-          <a href="mailto:samsepylot@gmail.com">Mail</a>
+          <a href="mailto:htodo@protonmail.ch">Mail</a>
         </li>
         <li>
           <a href="https://t.me/samsepy">Telegram</a>
