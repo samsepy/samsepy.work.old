@@ -103,7 +103,7 @@
       <h2>Sites</h2>
       <ul class="list">
         <li>
-          <nuxt-link to="/blog/">Blog</nuxt-link> - 準備中
+          <nuxt-link to="/blog/">Blog</nuxt-link>
         </li>
         <li>
           <a href="https://github.com/samsepy">GitHub</a>
