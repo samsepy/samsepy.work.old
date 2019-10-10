@@ -9,7 +9,7 @@ const sourceFileNameToUrl = filepath => {
 
 const generateDynamicRoutes = callback => {
   const routes = sourceFileArray.map(sourceFileName => {
-    return sourceFileNameToUrl(sourceFileName);
+    return sourceFileNameToUrl(sourceFileName.normalize());
   });
   callback(null, routes);
 };
