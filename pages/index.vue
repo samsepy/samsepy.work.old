@@ -200,6 +200,10 @@ export default {
   margin: 0 auto;
 }
 
+ul {
+  padding: 0;
+}
+
 li span {
   display: inline-block;
 }
