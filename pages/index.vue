@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="wrapper">
-      <img class="logo" src="~assets/images/logo.png" alt="自撮り" />
+      <img class="logo" src="/logo.png" alt="自撮り" />
       <h1 class="title">samsepy</h1>
       <p class="bio">
         1995年8月30日生まれ、24歳。
