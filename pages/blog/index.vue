@@ -41,8 +41,25 @@ export default {
     return Object.assign({}, summaryObject);
   },
   head() {
+    const title = "blog - samsepy";
+    const description = "samsepy blog index";
     return {
-      title: "blog - samsepy"
+      title: title,
+      meta: [
+        { hid: "description", name: "description", content: description },
+        {
+          hid: "og:url",
+          property: "og:url",
+          content: `https://samsepy.work/blog/`
+        },
+        { hid: "og:type", property: "og:type", content: "article" },
+        { hid: "og:title", property: "og:title", content: title },
+        {
+          hid: "og:description",
+          property: "og:description",
+          content: description
+        }
+      ]
     };
   }
 };

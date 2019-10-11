@@ -33,8 +33,24 @@ export default {
   },
   head() {
     const title = `${this.title} - samsepy`;
+    const description = `${this.preview}`;
     return {
-      title: title
+      title: title,
+      meta: [
+        { hid: "description", name: "description", content: description },
+        {
+          hid: "og:url",
+          property: "og:url",
+          content: `https://samsepy.work/blog/${this.params.date}/${this.params.slug}`
+        },
+        { hid: "og:type", property: "og:type", content: "article" },
+        { hid: "og:title", property: "og:title", content: title },
+        {
+          hid: "og:description",
+          property: "og:description",
+          content: description
+        }
+      ]
     };
   }
 };
