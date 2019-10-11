@@ -33,8 +33,15 @@ export default {
   },
   head() {
     const title = `${this.title} - samsepy`;
+    // console.log(params);
     return {
-      title: title
+      title: title,
+      meta: [
+        { hid: "description", name: "description", content: `${this.preview}` },
+        { hid: "og:site_name", name: "og:site_name", content: "samsepy" },
+        { hid: "og:type", name: "og:type", content: "article" }
+        // { hid: "og:url", name: "og:url", content: `https://samsepy.work/blog/${params.date}/` }
+      ]
     };
   }
 };
