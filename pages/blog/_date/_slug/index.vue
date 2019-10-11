@@ -33,7 +33,7 @@ export default {
   },
   head() {
     const title = `${this.title} - samsepy`;
-    const description = `${this.preview}`;
+    const description = `${this.preview}`.replace(/\s+|\r?\n/g, "");
     return {
       title: title,
       meta: [
