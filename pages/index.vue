@@ -181,10 +181,7 @@
 export default {
   computed: {
     currentAge() {
-      const year = 1995;
-      const month = 8;
-      const day = 30;
-      const birthday = new Date(year, month - 1, day);
+      const birthday = new Date(1995, 8 - 1, 30);
       const today = new Date();
       const thisYearBirthDay = new Date(
         today.getFullYear(),
