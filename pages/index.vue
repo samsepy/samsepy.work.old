@@ -4,7 +4,7 @@
       <img class="logo" src="/logo.png" alt="自撮り" />
       <h1 class="title">samsepy</h1>
       <p class="bio">
-        1995年8月30日生まれ、24歳。
+        1995年8月30日生まれ、{{currentAge}}歳。
         <br />出身は石川で、現在は東京住まい。
         <br />海外で暮らしたい。
       </p>
@@ -179,7 +179,22 @@
 
 <script>
 export default {
-  components: {}
+  computed: {
+    currentAge() {
+      const year = 1995;
+      const month = 8;
+      const day = 30;
+      const birthday = new Date(year, month - 1, day);
+      const today = new Date();
+      const thisYearBirthDay = new Date(
+        today.getFullYear(),
+        birthday.getMonth(),
+        birthday.getDate()
+      );
+      const age = today.getFullYear() - birthday.getFullYear();
+      return today < thisYearBirthDay ? age - 1 : age;
+    }
+  }
 };
 </script>
 
