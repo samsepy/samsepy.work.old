@@ -36,7 +36,7 @@ const formatDate = date => {
 };
 
 export default {
-  asyncData() {
+  data() {
     updateSummaryObject();
     return Object.assign({}, summaryObject);
   },
