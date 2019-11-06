@@ -49,19 +49,13 @@
               <wbr />
               <span>OPEN8 Inc. - Engineer</span>
             </li>
-            <li>
-              <span class="term">2019</span>
-              <ul class="list">
-                <li>
-                  <span>SAMURAI - Instructor</span>
-                </li>
-                <li>
-                  <span>
-                    entershare - Engineer
-                    <span class="note">*probably</span>
-                  </span>
-                </li>
-              </ul>
+            <li id="term-grid">
+              <span class="term" id="term-grid-head">2019</span>
+              <span id="term-grid-item1">SAMURAI - Instructor</span>
+              <span id="term-grid-item2">
+                entershare - Engineer
+                <span class="note">*probably</span>
+              </span>
             </li>
           </ul>
         </li>
@@ -247,5 +241,26 @@ li span {
 
 .note {
   font-weight: bold;
+}
+
+#term-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+#term-grid-head {
+  grid-row: 1 / 3;
+  grid-column: 1 / 2;
+  padding-right: 1ex;
+}
+
+#term-grid-item1 {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+}
+
+#term-grid-item2 {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
 }
 </style>
