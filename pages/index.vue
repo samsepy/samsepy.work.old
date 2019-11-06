@@ -54,6 +54,11 @@
               <wbr />
               <span>Sole Proprietor - Engineer</span>
             </li>
+            <li>
+              <span class="term">2019</span>
+              <wbr />
+              <span>entershare - Engineer</span>
+            </li>
           </ul>
         </li>
       </ul>
