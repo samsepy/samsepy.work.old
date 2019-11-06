@@ -50,14 +50,17 @@
               <span>OPEN8 Inc. - Engineer</span>
             </li>
             <li>
-              <span class="term">2019</span>
+              <span class="term">2019-</span>
               <wbr />
-              <span>Sole Proprietor - Engineer</span>
+              <span>SAMURAI - Instructor</span>
             </li>
             <li>
-              <span class="term">2019</span>
+              <span class="term">2019-</span>
               <wbr />
-              <span>entershare - Engineer</span>
+              <span>
+                entershare - Engineer
+                <span class="note">*probably</span>
+              </span>
             </li>
           </ul>
         </li>
@@ -239,5 +242,9 @@ li span {
 
 .strike-through {
   text-decoration: line-through;
+}
+
+.note {
+  font-weight: bold;
 }
 </style>
