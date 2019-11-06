@@ -50,17 +50,18 @@
               <span>OPEN8 Inc. - Engineer</span>
             </li>
             <li>
-              <span class="term">2019-</span>
-              <wbr />
-              <span>SAMURAI - Instructor</span>
-            </li>
-            <li>
-              <span class="term">2019-</span>
-              <wbr />
-              <span>
-                entershare - Engineer
-                <span class="note">*probably</span>
-              </span>
+              <span class="term">2019</span>
+              <ul class="list">
+                <li>
+                  <span>SAMURAI - Instructor</span>
+                </li>
+                <li>
+                  <span>
+                    entershare - Engineer
+                    <span class="note">*probably</span>
+                  </span>
+                </li>
+              </ul>
             </li>
           </ul>
         </li>
