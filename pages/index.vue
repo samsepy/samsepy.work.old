@@ -50,7 +50,7 @@
               <span>OPEN8 Inc. - Engineer</span>
             </li>
             <li>
-              <span class="term">currently</span>
+              <span class="term">Currently</span>
               <br />
               <span>Samurai Inc. - Instructor</span>
               <br />
