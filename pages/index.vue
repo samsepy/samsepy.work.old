@@ -51,14 +51,10 @@
             </li>
             <li>
               <span class="term">currently</span>
-              <ul class="list">
-                <li>
-                  <span>Samurai Inc. - Instructor</span>
-                </li>
-                <li>
-                  <span>entershare Inc. - Engineer</span>
-                </li>
-              </ul>
+              <br />
+              <span>Samurai Inc. - Instructor</span>
+              <br />
+              <span>entershare Inc. - Engineer</span>
             </li>
           </ul>
         </li>
