@@ -35,26 +35,36 @@
           <span class="item">Career</span>:
           <ul class="list">
             <li>
-              <span class="term">2014-2018</span>
+              <span class="item">2014-2018</span>
               <wbr />
-              <span>Kanazawa Institute of Technology - Bachelor</span>
+              <span>
+                <a href="https://www.kanazawa-it.ac.jp/">Kanazawa Institute of Technology</a> - Bachelor
+              </span>
             </li>
             <li>
-              <span class="term">2016-2017</span>
+              <span class="item">2016-2017</span>
               <wbr />
-              <span>SOUYA Co.,Ltd. - Part time Engineer</span>
+              <span>
+                <a href="https://www.souya.biz/">SOUYA Co.,Ltd.</a> - Part time Engineer
+              </span>
             </li>
             <li>
-              <span class="term">2018-2019</span>
+              <span class="item">2018-2019</span>
               <wbr />
-              <span>OPEN8 Inc. - Engineer</span>
+              <span>
+                <a href="https://open8.com/">OPEN8 Inc.</a> - Engineer
+              </span>
             </li>
             <li>
-              <span class="term">Currently</span>
+              <span class="item">Currently</span>
               <br />
-              <span>Samurai Inc. - Instructor</span>
+              <span>
+                <a href="https://www.sejuku.net/">Samurai Inc.</a> - Instructor
+              </span>
               <br />
-              <span>entershare Inc. - Engineer</span>
+              <span>
+                <a href="https://entershare.jp/">entershare Inc.</a> - Engineer
+              </span>
             </li>
           </ul>
         </li>
@@ -223,10 +233,6 @@ ul {
 
 li span {
   display: inline-block;
-}
-
-.term {
-  color: #96514d;
 }
 
 .title {
