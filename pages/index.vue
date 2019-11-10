@@ -76,35 +76,49 @@
             <span class="item">Programming Languages</span>:
           </span>
           <wbr />
-          <span>Ruby, Python</span>
+          <span>
+            <a href="https://www.ruby-lang.org/">Ruby</a>,
+            <a href="https://www.python.org/">Python</a>
+          </span>
         </li>
         <li>
           <span>
             <span class="item">Frameworks</span>:
           </span>
           <wbr />
-          <span>Ruby on Rails</span>
+          <span>
+            <a href="https://rubyonrails.org/">Ruby on Rails</a>
+          </span>
         </li>
         <li>
           <span>
             <span class="item">Databases</span>:
           </span>
           <wbr />
-          <span>MySQL</span>
+          <span>
+            <a href="https://www.mysql.com/">MySQL</a>
+          </span>
         </li>
         <li>
           <span>
             <span class="item">Markup Languages</span>:
           </span>
           <wbr />
-          <span>HTML5 + CSS3</span>
+          <span>
+            <a href="https://en.wikipedia.org/wiki/HTML5">HTML5</a> +
+            <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3">CSS3</a>
+          </span>
         </li>
         <li>
           <span>
             <span class="item">Environments</span>:
           </span>
           <wbr />
-          <span>macOS, Git, GitHub</span>
+          <span>
+            <a href="https://www.apple.com/macos/">macOS</a>,
+            <a href="https://git-scm.com/">Git</a>,
+            <a href="https://github.com/">GitHub</a>
+          </span>
         </li>
       </ul>
       <h2>Works</h2>
