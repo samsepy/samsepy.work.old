@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="wrapper">
-      <img class="logo" src="/logo.png" alt="logo" />
+      <img class="icon" src="/icon.png" alt="icon" />
       <h1 class="title">samsepy</h1>
       <p class="bio">
         1995年8月30日生まれ、{{currentAge}}歳。
@@ -235,7 +235,7 @@ export default {
   text-align: center;
 }
 
-.logo {
+.icon {
   display: block;
   border-radius: 50%;
   margin: 0 auto;
