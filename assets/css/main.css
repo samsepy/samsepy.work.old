@@ -44,3 +44,9 @@ li {
 a {
   color: #96514d;
 }
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}

@@ -1,15 +1,11 @@
 <template>
-  <div class="container">
-    <div class="wrapper">
-      <article>
-        <h1 class="title">{{ title }}</h1>
-        <div class="post-meta">
-          <time>{{ params.date }}</time>
-        </div>
-        <div v-html="bodyHtml" />
-      </article>
+  <article>
+    <h1 class="title">{{ title }}</h1>
+    <div class="post-meta">
+      <time>{{ params.date }}</time>
     </div>
-  </div>
+    <div v-html="bodyHtml" />
+  </article>
 </template>
 
 <script>
