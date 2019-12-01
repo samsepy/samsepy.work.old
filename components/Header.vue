@@ -12,3 +12,9 @@
     </nav>
   </header>
 </template>
+
+<style scoped>
+nav ul li {
+  display: inline;
+}
+</style>
