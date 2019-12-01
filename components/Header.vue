@@ -14,6 +14,9 @@
 </template>
 
 <style scoped>
+header {
+  margin-bottom: 25px;
+}
 nav ul li {
   display: inline;
 }
