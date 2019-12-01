@@ -19,10 +19,21 @@
       "ext": ".json",
       "sourceBase": "2019-10-03-yatteiki.md",
       "sourceExt": ".md"
+    },
+    "contents/blog/json/2019-12-01-食生活RTA.json": {
+      "title": "食生活RTA",
+      "created_at": "2019-12-01T00:00:00.000Z",
+      "preview": "",
+      "dir": "contents/blog/json",
+      "base": "2019-12-01-食生活RTA.json",
+      "ext": ".json",
+      "sourceBase": "2019-12-01-食生活RTA.md",
+      "sourceExt": ".md"
     }
   },
   "sourceFileArray": [
     "contents/blog/markdown/2019-10-03-yatteiki.md",
-    "contents/blog/markdown/2019-10-11-エンジニア専用のコミュニティサイトを作っている話.md"
+    "contents/blog/markdown/2019-10-11-エンジニア専用のコミュニティサイトを作っている話.md",
+    "contents/blog/markdown/2019-12-01-食生活RTA.md"
   ]
 }
