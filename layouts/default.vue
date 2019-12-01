@@ -1,20 +1,18 @@
 <template>
   <div class="container">
-    <header>
-      <nav>
-        <ul class="list">
-          <li>
-            <nuxt-link to="/">home</nuxt-link>
-          </li>
-          <li>
-            <nuxt-link to="/blog/">blog</nuxt-link>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <Header />
     <nuxt />
   </div>
 </template>
+
+<script>
+import Header from "@/components/Header";
+export default {
+  components: {
+    Header
+  }
+};
+</script>
 
 <style>
 html {
