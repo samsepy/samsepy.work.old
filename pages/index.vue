@@ -145,7 +145,7 @@
       <li>
         <a href="https://twitter.com/samsepy">
           <span class="strike-through">Twitter</span>
-        </a> - やめた
+        </a> - 休止中
       </li>
       <li>
         <a href="https://www.facebook.com/hajime.todo">Facebook</a>
