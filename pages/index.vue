@@ -333,6 +333,7 @@ li span {
 }
 
 .related-logo {
+  vertical-align: middle;
   margin-right: 8px;
 }
 </style>
