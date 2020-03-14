@@ -177,7 +177,7 @@
       <li>
         <a href="https://www.amazon.jp/hz/wishlist/ls/13WQUGCYG4293?ref_=wl_share">
           <fa :icon="faAmazon" class="site-logo" />Amazon
-        </a> - wishlist
+        </a>
       </li>
     </ul>
     <h2>Pays</h2>
