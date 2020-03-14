@@ -129,22 +129,22 @@
     <ul class="list">
       <li>
         <nuxt-link to="/blog/">
-          <fa :icon="faBlog" class="site-logo" />Blog
+          <fa :icon="faBlog" class="related-logo" />Blog
         </nuxt-link>
       </li>
       <li>
         <a href="https://github.com/samsepy">
-          <fa :icon="faGithub" class="site-logo" />GitHub
+          <fa :icon="faGithub" class="related-logo" />GitHub
         </a>
       </li>
       <li>
         <a href="https://qiita.com/samsepy">
-          <fa :icon="faSearch" class="site-logo" />Qiita
+          <fa :icon="faSearch" class="related-logo" />Qiita
         </a>
       </li>
       <li>
         <a href="http://samsepy.hatenablog.com/">
-          <fa :icon="faBlog" class="site-logo" />はてなブログ
+          <fa :icon="faBlog" class="related-logo" />はてなブログ
         </a>
       </li>
       <li>
@@ -156,7 +156,7 @@
             xmlns:xlink="http://www.w3.org/1999/xlink"
             role="img"
             viewBox="0 0 107.2 96.8"
-            class="svg-inline--fa fa-w-16 site-logo"
+            class="svg-inline--fa fa-w-16 related-logo"
           >
             <path
               d="M66.7,0l40.6,96.8H78.9C70.4,75.5,62,54.3,53.6,33c-8.4,21.3-16.8,42.5-25.2,63.8H0C13.5,64.5,27,32.3,40.6,0H66.7L66.7,0z"
@@ -166,17 +166,17 @@
       </li>
       <li>
         <a href="https://twitter.com/samsepy">
-          <fa :icon="faTwitter" class="site-logo" />Twitter
+          <fa :icon="faTwitter" class="related-logo" />Twitter
         </a>
       </li>
       <li>
         <a href="https://www.facebook.com/hajime.todo">
-          <fa :icon="faFacebook" class="site-logo" />Facebook
+          <fa :icon="faFacebook" class="related-logo" />Facebook
         </a>
       </li>
       <li>
         <a href="https://www.amazon.jp/hz/wishlist/ls/13WQUGCYG4293?ref_=wl_share">
-          <fa :icon="faAmazon" class="site-logo" />Amazon
+          <fa :icon="faAmazon" class="related-logo" />Amazon
         </a>
       </li>
     </ul>
@@ -215,16 +215,24 @@
     <h2>Contacts</h2>
     <ul class="list">
       <li>
-        <a href="tel:+819062734866">Tel</a>
+        <a href="tel:+819062734866">
+          <fa :icon="faPhone" class="related-logo" />Tel
+        </a>
       </li>
       <li>
-        <a href="mailto:htodo@protonmail.ch">Mail</a>
+        <a href="mailto:htodo@protonmail.ch">
+          <fa :icon="faEnvelope" class="related-logo" />Mail
+        </a>
       </li>
       <li>
-        <a href="https://t.me/samsepy">Telegram</a>
+        <a href="https://t.me/samsepy">
+          <fa :icon="faTelegram" class="related-logo" />Telegram
+        </a>
       </li>
       <li>
-        <a href="https://www.facebook.com/hajime.todo">Messenger</a>
+        <a href="https://www.facebook.com/hajime.todo">
+          <fa :icon="faFacebookMessenger" class="related-logo" />Messenger
+        </a>
       </li>
     </ul>
   </div>
@@ -235,9 +243,16 @@ import {
   faGithub,
   faFacebook,
   faTwitter,
-  faAmazon
+  faAmazon,
+  faTelegram,
+  faFacebookMessenger
 } from "@fortawesome/free-brands-svg-icons";
-import { faBlog, faSearch } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBlog,
+  faSearch,
+  faPhone,
+  faEnvelope
+} from "@fortawesome/free-solid-svg-icons";
 
 export default {
   computed: {
@@ -269,6 +284,18 @@ export default {
     },
     faSearch() {
       return faSearch;
+    },
+    faPhone() {
+      return faPhone;
+    },
+    faEnvelope() {
+      return faEnvelope;
+    },
+    faTelegram() {
+      return faTelegram;
+    },
+    faFacebookMessenger() {
+      return faFacebookMessenger;
     }
   }
 };
@@ -305,7 +332,7 @@ li span {
   fill: #aea79f;
 }
 
-.site-logo {
+.related-logo {
   margin-right: 8px;
 }
 </style>
