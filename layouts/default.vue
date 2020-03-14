@@ -16,10 +16,11 @@ export default {
 
 <style>
 html {
-  font-family: sans-serif;
+  font-family: Ubuntu, sans-serif;
   font-size: 18px;
   font-weight: 300;
-  color: #696969;
+  background-color: #2c001e;
+  color: #fff;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
