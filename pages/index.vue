@@ -166,10 +166,8 @@
       </li>
       <li>
         <a href="https://twitter.com/samsepy">
-          <span class="strike-through">
-            <fa :icon="faTwitter" class="site-logo" />Twitter
-          </span>
-        </a> - 休止中
+          <fa :icon="faTwitter" class="site-logo" />Twitter
+        </a>
       </li>
       <li>
         <a href="https://www.facebook.com/hajime.todo">
@@ -301,10 +299,6 @@ li span {
 
 .item {
   font-weight: bold;
-}
-
-.strike-through {
-  text-decoration: line-through;
 }
 
 #alis-logo {
