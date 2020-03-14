@@ -150,6 +150,7 @@
       <li>
         <a href="https://alis.to/users/samsepy">
           <svg
+            id="alis-logo"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -160,8 +161,7 @@
             <path
               d="M66.7,0l40.6,96.8H78.9C70.4,75.5,62,54.3,53.6,33c-8.4,21.3-16.8,42.5-25.2,63.8H0C13.5,64.5,27,32.3,40.6,0H66.7L66.7,0z"
             />
-          </svg>
-          ALIS
+          </svg>ALIS
         </a>
       </li>
       <li>
@@ -307,7 +307,7 @@ li span {
   text-decoration: line-through;
 }
 
-svg {
+#alis-logo {
   fill: #aea79f;
 }
 
