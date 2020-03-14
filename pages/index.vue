@@ -129,22 +129,22 @@
     <ul class="list">
       <li>
         <nuxt-link to="/blog/">
-          <fa :icon="faBlog" />Blog
+          <fa :icon="faBlog" class="site-logo" />Blog
         </nuxt-link>
       </li>
       <li>
         <a href="https://github.com/samsepy">
-          <fa :icon="faGithub" />GitHub
+          <fa :icon="faGithub" class="site-logo" />GitHub
         </a>
       </li>
       <li>
         <a href="https://qiita.com/samsepy">
-          <fa :icon="faSearch" />Qiita
+          <fa :icon="faSearch" class="site-logo" />Qiita
         </a>
       </li>
       <li>
         <a href="http://samsepy.hatenablog.com/">
-          <fa :icon="faBlog" />はてなブログ
+          <fa :icon="faBlog" class="site-logo" />はてなブログ
         </a>
       </li>
       <li>
@@ -155,7 +155,7 @@
             xmlns:xlink="http://www.w3.org/1999/xlink"
             role="img"
             viewBox="0 0 107.2 96.8"
-            class="svg-inline--fa fa-w-16"
+            class="svg-inline--fa fa-w-16 site-logo"
           >
             <path
               d="M66.7,0l40.6,96.8H78.9C70.4,75.5,62,54.3,53.6,33c-8.4,21.3-16.8,42.5-25.2,63.8H0C13.5,64.5,27,32.3,40.6,0H66.7L66.7,0z"
@@ -167,18 +167,18 @@
       <li>
         <a href="https://twitter.com/samsepy">
           <span class="strike-through">
-            <fa :icon="faTwitter" />Twitter
+            <fa :icon="faTwitter" class="site-logo" />Twitter
           </span>
         </a> - 休止中
       </li>
       <li>
         <a href="https://www.facebook.com/hajime.todo">
-          <fa :icon="faFacebook" />Facebook
+          <fa :icon="faFacebook" class="site-logo" />Facebook
         </a>
       </li>
       <li>
         <a href="https://www.amazon.jp/hz/wishlist/ls/13WQUGCYG4293?ref_=wl_share">
-          <fa :icon="faAmazon" />Amazon
+          <fa :icon="faAmazon" class="site-logo" />Amazon
         </a> - wishlist
       </li>
     </ul>
@@ -309,5 +309,9 @@ li span {
 
 svg {
   fill: #aea79f;
+}
+
+.site-logo {
+  margin-right: 8px;
 }
 </style>
