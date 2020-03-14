@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img class="icon" src="/icon.png" alt="icon" />
+    <img class="icon" src="/icon.png" alt="icon" width="200" height="200" />
     <h1 class="title">samsepy</h1>
     <p class="bio">
       1995年8月30日生まれ、{{currentAge}}歳。
