@@ -4,7 +4,7 @@
     <h1 class="title">samsepy</h1>
     <p class="bio">
       1995年8月30日生まれ、{{currentAge}}歳。
-      <br />出身は石川で、現在は東京住まい。
+      <br />新宿でエンジニアをやっている。
       <br />海外で暮らしたい。
     </p>
     <h2>Profile</h2>
