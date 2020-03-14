@@ -80,7 +80,8 @@ export default {
         ["@nuxtjs/google-analytics", {
             id: "UA-148741837-1"
         }],
-        "@nuxtjs/sitemap"
+        "@nuxtjs/sitemap",
+        "nuxt-fontawesome"
     ],
     /*
     ** Build configuration
@@ -100,5 +101,8 @@ export default {
     },
     generate: {
         routes: generateDynamicRoutes
+    },
+    fontawesome: {
+        component: "fa"
     }
 }

@@ -128,30 +128,58 @@
     <h2>Sites</h2>
     <ul class="list">
       <li>
-        <nuxt-link to="/blog/">Blog</nuxt-link>
+        <nuxt-link to="/blog/">
+          <fa :icon="faBlog" />Blog
+        </nuxt-link>
       </li>
       <li>
-        <a href="https://github.com/samsepy">GitHub</a>
+        <a href="https://github.com/samsepy">
+          <fa :icon="faGithub" />GitHub
+        </a>
       </li>
       <li>
-        <a href="https://qiita.com/samsepy">Qiita</a>
+        <a href="https://qiita.com/samsepy">
+          <fa :icon="faSearch" />Qiita
+        </a>
       </li>
       <li>
-        <a href="http://samsepy.hatenablog.com/">はてなブログ</a>
+        <a href="http://samsepy.hatenablog.com/">
+          <fa :icon="faBlog" />はてなブログ
+        </a>
       </li>
       <li>
-        <a href="https://alis.to/users/samsepy">ALIS</a>
+        <a href="https://alis.to/users/samsepy">
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            role="img"
+            viewBox="0 0 107.2 96.8"
+            class="svg-inline--fa fa-w-16"
+          >
+            <path
+              d="M66.7,0l40.6,96.8H78.9C70.4,75.5,62,54.3,53.6,33c-8.4,21.3-16.8,42.5-25.2,63.8H0C13.5,64.5,27,32.3,40.6,0H66.7L66.7,0z"
+            />
+          </svg>
+          ALIS
+        </a>
       </li>
       <li>
         <a href="https://twitter.com/samsepy">
-          <span class="strike-through">Twitter</span>
+          <span class="strike-through">
+            <fa :icon="faTwitter" />Twitter
+          </span>
         </a> - 休止中
       </li>
       <li>
-        <a href="https://www.facebook.com/hajime.todo">Facebook</a>
+        <a href="https://www.facebook.com/hajime.todo">
+          <fa :icon="faFacebook" />Facebook
+        </a>
       </li>
       <li>
-        <a href="https://www.amazon.jp/hz/wishlist/ls/13WQUGCYG4293?ref_=wl_share">Amazon</a> - wishlist
+        <a href="https://www.amazon.jp/hz/wishlist/ls/13WQUGCYG4293?ref_=wl_share">
+          <fa :icon="faAmazon" />Amazon
+        </a> - wishlist
       </li>
     </ul>
     <h2>Pays</h2>
@@ -205,6 +233,14 @@
 </template>
 
 <script>
+import {
+  faGithub,
+  faFacebook,
+  faTwitter,
+  faAmazon
+} from "@fortawesome/free-brands-svg-icons";
+import { faBlog, faSearch } from "@fortawesome/free-solid-svg-icons";
+
 export default {
   computed: {
     currentAge() {
@@ -217,6 +253,24 @@ export default {
       );
       const age = today.getFullYear() - birthday.getFullYear();
       return today < thisYearBirthDay ? age - 1 : age;
+    },
+    faGithub() {
+      return faGithub;
+    },
+    faBlog() {
+      return faBlog;
+    },
+    faFacebook() {
+      return faFacebook;
+    },
+    faTwitter() {
+      return faTwitter;
+    },
+    faAmazon() {
+      return faAmazon;
+    },
+    faSearch() {
+      return faSearch;
     }
   }
 };
@@ -251,5 +305,9 @@ li span {
 
 .strike-through {
   text-decoration: line-through;
+}
+
+svg {
+  fill: #aea79f;
 }
 </style>
