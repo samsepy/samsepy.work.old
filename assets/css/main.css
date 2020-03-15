@@ -39,7 +39,11 @@ li {
 }
 
 a {
-  color: #AEA79F;
+  color: #aea79f;
+}
+
+svg {
+  fill: #aea79f;
 }
 
 .list {

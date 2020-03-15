@@ -81,7 +81,8 @@ export default {
             id: "UA-148741837-1"
         }],
         "@nuxtjs/sitemap",
-        "nuxt-fontawesome"
+        "nuxt-fontawesome",
+        "@nuxtjs/svg"
     ],
     /*
     ** Build configuration
