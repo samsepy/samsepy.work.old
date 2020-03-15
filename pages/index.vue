@@ -149,19 +149,7 @@
       </li>
       <li>
         <a href="https://alis.to/users/samsepy">
-          <svg
-            id="alis-logo"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            role="img"
-            viewBox="0 0 107.2 96.8"
-            class="svg-inline--fa fa-w-16 related-logo"
-          >
-            <path
-              d="M66.7,0l40.6,96.8H78.9C70.4,75.5,62,54.3,53.6,33c-8.4,21.3-16.8,42.5-25.2,63.8H0C13.5,64.5,27,32.3,40.6,0H66.7L66.7,0z"
-            />
-          </svg>ALIS
+          <alisLogo class="svg-inline--fa fa-w-16 related-logo" />ALIS
         </a>
       </li>
       <li>
@@ -253,6 +241,7 @@ import {
   faPhone,
   faEnvelope
 } from "@fortawesome/free-solid-svg-icons";
+import alisLogo from "@/assets/images/logos/alis.svg?inline";
 
 export default {
   computed: {
@@ -297,6 +286,9 @@ export default {
     faFacebookMessenger() {
       return faFacebookMessenger;
     }
+  },
+  components: {
+    alisLogo
   }
 };
 </script>
@@ -326,10 +318,6 @@ li span {
 
 .item {
   font-weight: bold;
-}
-
-#alis-logo {
-  fill: #aea79f;
 }
 
 .related-logo {
