@@ -22,6 +22,7 @@
     "processmd": "^4.4.2"
   },
   "devDependencies": {
-    "prettier-eslint": "^9.0.0"
+    "prettier-eslint": "^9.0.0",
+    "vue-svg-loader": "^0.16.0"
   }
 }
