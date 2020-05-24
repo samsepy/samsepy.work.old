@@ -44,8 +44,9 @@ a {
   color: #f29d4b;
 }
 
-svg {
-  fill: #f29d4b;
+a svg {
+  color: #d57030;
+  fill: #d57030; /* alisロゴ用 */
 }
 
 .list {
