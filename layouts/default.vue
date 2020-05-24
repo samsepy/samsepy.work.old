@@ -21,7 +21,7 @@ export default {
 html {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 900;
   background-color: #fff;
   color: #616161;
   word-spacing: 1px;

@@ -37,32 +37,32 @@
             <span class="item">2014-2018</span>
             <wbr />
             <span>
-              <a href="https://www.kanazawa-it.ac.jp/">Kanazawa Institute of Technology</a> - Bachelor
+              <a href="https://www.kanazawa-it.ac.jp/">Kanazawa Institute of Technology</a>
             </span>
           </li>
           <li>
             <span class="item">2016-2017</span>
             <wbr />
             <span>
-              <a href="https://www.souya.biz/">SOUYA Co.,Ltd.</a> - Part time Engineer
+              <a href="https://www.souya.biz/">SOUYA Co.,Ltd.</a>
             </span>
           </li>
           <li>
             <span class="item">2018-2019</span>
             <wbr />
             <span>
-              <a href="https://open8.com/">OPEN8 Inc.</a> - Engineer
+              <a href="https://open8.com/">OPEN8 Inc.</a>
             </span>
           </li>
           <li>
             <span class="item">Currently</span>
             <br />
             <span>
-              <a href="https://www.sejuku.net/">Samurai Inc.</a> - Instructor
+              <a href="https://www.sejuku.net/">Samurai Inc.</a>
             </span>
             <br />
             <span>
-              <a href="https://entershare.jp/">entershare Inc.</a> - Engineer
+              <a href="https://entershare.jp/">entershare Inc.</a>
             </span>
           </li>
         </ul>
