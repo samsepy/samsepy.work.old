@@ -20,8 +20,9 @@ h3 {
   text-align: left;
 }
 
-h1, h2 {
-  color: greenyellow;
+h1,
+h2 {
+  color: #9ba747;
   font-weight: normal;
 }
 
@@ -31,7 +32,7 @@ p {
 }
 
 ul {
-  text-align: left
+  text-align: left;
 }
 
 li {
@@ -39,11 +40,11 @@ li {
 }
 
 a {
-  color: #aea79f;
+  color: #d57030;
 }
 
 svg {
-  fill: #aea79f;
+  fill: #d57030;
 }
 
 .list {
