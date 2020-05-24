@@ -64,7 +64,7 @@ export default {
 <style scoped>
 .link {
   display: block;
-  color: #d57030;
+  color: #f29d4b;
   text-decoration: none;
 }
 
