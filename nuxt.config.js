@@ -61,7 +61,7 @@ export default {
       {
         rel: "stylesheet",
         type: "text/css",
-        href: "//fonts.googleapis.com/css?family=Ubuntu",
+        href: "//fonts.googleapis.com/css?family=M+PLUS+Rounded+1c",
       },
     ],
   },

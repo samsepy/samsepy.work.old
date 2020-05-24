@@ -19,9 +19,9 @@ export default {
 
 <style>
 html {
-  font-family: Ubuntu, sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 700;
   background-color: #fff;
   color: #616161;
   word-spacing: 1px;

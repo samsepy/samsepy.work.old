@@ -316,10 +316,6 @@ li span {
   text-align: center;
 }
 
-.item {
-  font-weight: bold;
-}
-
 .related-logo {
   vertical-align: middle;
   margin-right: 8px;

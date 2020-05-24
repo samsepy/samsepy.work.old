@@ -72,10 +72,6 @@ export default {
   text-decoration: underline;
 }
 
-.created-at {
-  font-weight: bold;
-}
-
 .post-meta {
   font-size: 0.8em;
   margin: 16px 0;
