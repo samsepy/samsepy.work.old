@@ -3,6 +3,8 @@
   padding: 30px 10px;
   min-height: 100vh;
   max-width: 750px;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -40,11 +42,11 @@ li {
 }
 
 a {
-  color: #d57030;
+  color: #f29d4b;
 }
 
 svg {
-  fill: #d57030;
+  fill: #f29d4b;
 }
 
 .list {

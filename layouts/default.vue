@@ -2,14 +2,17 @@
   <div class="container">
     <Header />
     <nuxt />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 export default {
   components: {
-    Header
+    Header,
+    Footer
   }
 };
 </script>
@@ -20,7 +23,7 @@ html {
   font-size: 18px;
   font-weight: 300;
   background-color: #fff;
-  color: #f29d4b;
+  color: #616161;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
