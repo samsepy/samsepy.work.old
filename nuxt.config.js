@@ -125,7 +125,7 @@ export default {
   },
   webfontloader: {
     google: {
-      families: ["M+PLUS+Rounded+1c:wght@700"],
+      families: ["M+PLUS+Rounded+1c:wght@700&display=swap"],
     },
   },
 };
