@@ -49,6 +49,10 @@ a svg {
   fill: #d57030; /* alisロゴ用 */
 }
 
+a:hover {
+  opacity: 0.75;
+}
+
 .list {
   list-style-type: none;
   padding: 0;

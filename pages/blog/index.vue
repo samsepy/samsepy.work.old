@@ -71,10 +71,6 @@ export default {
   text-decoration: none;
 }
 
-.link:hover {
-  text-decoration: underline;
-}
-
 .post-meta {
   font-size: 0.8em;
   margin: 16px 0;
