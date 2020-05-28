@@ -61,7 +61,8 @@ export default {
       {
         rel: "stylesheet",
         type: "text/css",
-        href: "//fonts.googleapis.com/css?family=M+PLUS+Rounded+1c",
+        href:
+          "//fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap",
       },
     ],
   },
