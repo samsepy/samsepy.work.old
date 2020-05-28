@@ -2,8 +2,11 @@
   <section>
     <h1>Archives</h1>
     <article v-for="content in fileMap" v-bind:key="content.id">
-      <nuxt-link :to="{ path: `/blog/${content.created_at}/${content.title}`}" class="link">
-        <h2>{{ content.title}}</h2>
+      <nuxt-link
+        :to="{ path: `/blog/${content.created_at}/${content.title}` }"
+        class="link"
+      >
+        <h2>{{ content.title }}</h2>
         <p>{{ content.preview }}</p>
         <div class="post-meta">
           <time>{{ content.created_at }}</time>
@@ -23,7 +26,7 @@ const updateSummaryObject = () => {
   }
 };
 
-const formatDate = date => {
+const formatDate = (date) => {
   const d = new Date(date);
   const year = d.getFullYear();
   const month = ("0" + (d.getMonth() + 1)).slice(-2);
@@ -46,18 +49,18 @@ export default {
         {
           hid: "og:url",
           property: "og:url",
-          content: `https://samsepy.work/blog/`
+          content: `https://samsepy.work/blog/`,
         },
         { hid: "og:type", property: "og:type", content: "article" },
         { hid: "og:title", property: "og:title", content: title },
         {
           hid: "og:description",
           property: "og:description",
-          content: description
-        }
-      ]
+          content: description,
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 
@@ -76,5 +79,6 @@ export default {
   font-size: 0.8em;
   margin: 16px 0;
   text-align: left;
+  color: #616161;
 }
 </style>
