@@ -56,15 +56,7 @@ export default {
         content: "https://samsepy.work/icon.png",
       },
     ],
-    link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      {
-        rel: "stylesheet",
-        type: "text/css",
-        href:
-          "//fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap",
-      },
-    ],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
   /*
    ** Customize the progress-bar color
@@ -95,6 +87,7 @@ export default {
     "@nuxtjs/sitemap",
     "nuxt-fontawesome",
     "@nuxtjs/svg",
+    "nuxt-webfontloader",
   ],
   /*
    ** Build configuration
@@ -129,5 +122,10 @@ export default {
   },
   fontawesome: {
     component: "fa",
+  },
+  webfontloader: {
+    google: {
+      families: ["M+PLUS+Rounded+1c:wght@700"],
+    },
   },
 };
