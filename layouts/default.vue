@@ -1,8 +1,11 @@
 <template>
-  <div class="container">
-    <Header />
-    <nuxt />
-    <Footer />
+  <div :class="currentMode">
+    <div class="container">
+      <Header />
+      <nuxt />
+      <Footer />
+      <span :class="currentSwitch" @click="setMode"></span>
+    </div>
   </div>
 </template>
 
@@ -10,9 +13,44 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 export default {
+  data: function() {
+    return {
+      mode: null
+    };
+  },
   components: {
     Header,
     Footer
+  },
+  created: function() {
+    this.mode = localStorage.colorThema;
+  },
+  computed: {
+    currentMode() {
+      if (this.mode === "dark") {
+        return "dark";
+      } else {
+        return "light";
+      }
+    },
+    currentSwitch() {
+      if (this.currentMode === "dark") {
+        return "switch-light";
+      } else {
+        return "switch-dark";
+      }
+    }
+  },
+  methods: {
+    setMode() {
+      if (localStorage.colorThema === "light") {
+        this.mode = "dark";
+        localStorage.colorThema = "dark";
+      } else {
+        this.mode = "light";
+        localStorage.colorThema = "light";
+      }
+    }
   }
 };
 </script>
