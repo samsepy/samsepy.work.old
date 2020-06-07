@@ -58,3 +58,10 @@ a:hover {
   padding: 0;
   text-align: left;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: #616161;
+    color: #fff;
+  }
+}
