@@ -4,7 +4,9 @@
       <Header />
       <nuxt />
       <Footer />
-      <span :class="currentSwitch" @click="setMode"></span>
+      <span :class="currentSwitch" @click="setMode">
+        <fa :icon="faLightbulb" class="switch-icon" />
+      </span>
     </div>
   </div>
 </template>
@@ -12,15 +14,16 @@
 <script>
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { faLightbulb } from "@fortawesome/free-regular-svg-icons";
 export default {
   data: function() {
     return {
-      mode: null
+      mode: null,
     };
   },
   components: {
     Header,
-    Footer
+    Footer,
   },
   created: function() {
     this.mode = localStorage.colorThema;
@@ -39,7 +42,10 @@ export default {
       } else {
         return "switch-dark";
       }
-    }
+    },
+    faLightbulb() {
+      return faLightbulb;
+    },
   },
   methods: {
     setMode() {
@@ -50,8 +56,8 @@ export default {
         this.mode = "light";
         localStorage.colorThema = "light";
       }
-    }
-  }
+    },
+  },
 };
 </script>
 
