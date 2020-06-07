@@ -59,6 +59,13 @@ a:hover {
   text-align: left;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: #616161;
+    color: #fff;
+  }
+}
+
 .dark {
   background-color: #616161;
   color: #fff;
