@@ -1,5 +1,15 @@
 {
   "fileMap": {
+    "contents/blog/json/2020-06-08-日記.json": {
+      "title": "日記",
+      "created_at": "2020-06-08T00:00:00.000Z",
+      "preview": "twitter をはじめ各種 SNS にはいいかげん辟易してきたのでしばらくここで隠居生活を送ることにする。若者は SNS なんかやめて資格の勉強とかやっとけや。それはそうと夏休み突入でぇ〜す！！！",
+      "dir": "contents/blog/json",
+      "base": "2020-06-08-日記.json",
+      "ext": ".json",
+      "sourceBase": "2020-06-08-日記.md",
+      "sourceExt": ".md"
+    },
     "contents/blog/json/2020-05-25-老後の話.json": {
       "title": "老後の話",
       "created_at": "2020-05-25T00:00:00.000Z",
@@ -45,6 +55,7 @@
     "contents/blog/markdown/2019-10-03-yatteiki.md",
     "contents/blog/markdown/2019-10-11-エンジニア専用のコミュニティサイトを作っている話.md",
     "contents/blog/markdown/2019-12-01-食生活RTA.md",
-    "contents/blog/markdown/2020-05-25-老後の話.md"
+    "contents/blog/markdown/2020-05-25-老後の話.md",
+    "contents/blog/markdown/2020-06-08-日記.md"
   ]
 }
