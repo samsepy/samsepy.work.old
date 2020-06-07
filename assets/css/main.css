@@ -85,7 +85,7 @@ a:hover {
   bottom: 30px;
   right: 30px;
   border-radius: 50%;
-  box-shadow: 0 0 8px black;
+  box-shadow: 2px 2px 4px black;
   text-align: center;
   vertical-align: bottom;
 }
@@ -99,7 +99,7 @@ a:hover {
   bottom: 30px;
   right: 30px;
   border-radius: 50%;
-  box-shadow: 0 0 8px black;
+  box-shadow: 2px 2px 4px black;
   text-align: center;
   vertical-align: bottom;
 }
