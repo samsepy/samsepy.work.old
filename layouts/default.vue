@@ -72,7 +72,7 @@ export default {
 
 <style>
 html {
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: sans-serif;
   font-size: 18px;
   font-weight: 700;
   background-color: #fff;

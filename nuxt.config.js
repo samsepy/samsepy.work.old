@@ -87,7 +87,6 @@ export default {
     "@nuxtjs/sitemap",
     "nuxt-fontawesome",
     "@nuxtjs/svg",
-    "nuxt-webfontloader",
   ],
   /*
    ** Build configuration
@@ -122,10 +121,5 @@ export default {
   },
   fontawesome: {
     component: "fa",
-  },
-  webfontloader: {
-    google: {
-      families: ["M+PLUS+Rounded+1c:wght@700&display=swap"],
-    },
   },
 };

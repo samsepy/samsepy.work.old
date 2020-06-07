@@ -22,7 +22,6 @@
     "minimist": "^1.2.2",
     "nuxt": "2.12.2",
     "nuxt-fontawesome": "^0.4.0",
-    "nuxt-webfontloader": "^1.1.0",
     "processmd": "^4.4.2",
     "serialize-javascript": "^2.1.1"
   },
