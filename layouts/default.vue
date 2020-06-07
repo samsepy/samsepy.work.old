@@ -18,7 +18,7 @@ import { faLightbulb } from "@fortawesome/free-regular-svg-icons";
 export default {
   data: function() {
     return {
-      mode: null,
+      mode: "",
     };
   },
   components: {
@@ -26,7 +26,9 @@ export default {
     Footer,
   },
   created: function() {
-    this.mode = localStorage.colorThema;
+    if (localStorage.colorThema !== "light" && this.isDarkMode()) {
+      this.mode = "dark";
+    }
   },
   computed: {
     currentMode() {
@@ -56,6 +58,9 @@ export default {
         this.mode = "light";
         localStorage.colorThema = "light";
       }
+    },
+    isDarkMode() {
+      return window.matchMedia("(prefers-color-scheme: dark)").matches;
     },
   },
 };
