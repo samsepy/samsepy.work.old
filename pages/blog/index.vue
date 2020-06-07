@@ -7,10 +7,10 @@
         class="link"
       >
         <h2>{{ content.title }}</h2>
-        <p>{{ content.preview }}</p>
         <div class="post-meta">
           <time>{{ content.created_at }}</time>
         </div>
+        <p>{{ content.preview }}</p>
       </nuxt-link>
     </article>
   </section>
