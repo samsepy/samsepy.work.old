@@ -26,7 +26,11 @@ export default {
     Footer,
   },
   created: function() {
-    if (localStorage.colorThema !== "light" && this.isDarkMode()) {
+    if (localStorage.colorThema !== "") {
+      this.mode = localStorage.colorThema;
+      return;
+    }
+    if (this.isDarkMode()) {
       this.mode = "dark";
     }
   },
