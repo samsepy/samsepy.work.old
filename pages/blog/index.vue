@@ -67,14 +67,22 @@ export default {
 <style scoped>
 .link {
   display: block;
-  color: #f29d4b;
   text-decoration: none;
 }
 
-.post-meta {
+.dark .post-meta {
   font-size: 0.8em;
   margin: 16px 0;
   text-align: left;
+  background-color: #616161;
+  color: #fff;
+}
+
+.light .post-meta {
+  font-size: 0.8em;
+  margin: 16px 0;
+  text-align: left;
+  background-color: #fff;
   color: #616161;
 }
 </style>
