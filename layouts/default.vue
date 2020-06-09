@@ -18,14 +18,14 @@ import { faLightbulb } from "@fortawesome/free-regular-svg-icons";
 export default {
   data: function() {
     return {
-      mode: "",
+      mode: ""
     };
   },
   components: {
     Header,
-    Footer,
+    Footer
   },
-  created: function() {
+  mounted: function() {
     if (localStorage.colorThema !== "") {
       this.mode = localStorage.colorThema;
       return;
@@ -51,7 +51,7 @@ export default {
     },
     faLightbulb() {
       return faLightbulb;
-    },
+    }
   },
   methods: {
     setMode() {
@@ -65,8 +65,8 @@ export default {
     },
     isDarkMode() {
       return window.matchMedia("(prefers-color-scheme: dark)").matches;
-    },
-  },
+    }
+  }
 };
 </script>
 
