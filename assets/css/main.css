@@ -105,12 +105,10 @@ a:hover {
 }
 
 .switch-light:hover {
-  opacity: 0.75;
   cursor: pointer;
 }
 
 .switch-dark:hover {
-  opacity: 0.75;
   cursor: pointer;
 }
 
