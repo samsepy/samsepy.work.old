@@ -104,6 +104,16 @@ a:hover {
   vertical-align: bottom;
 }
 
+.switch-light:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.switch-dark:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
 .switch-icon {
   width: 100%;
   height: 100%;
