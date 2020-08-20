@@ -133,6 +133,11 @@
         </nuxt-link>
       </li>
       <li>
+        <a href="https://scrapbox.io/samsepy/">
+          <fa :icon="faBlog" class="related-logo" />Scrapbox
+        </a>
+      </li>
+      <li>
         <a href="https://github.com/samsepy">
           <fa :icon="faGithub" class="related-logo" />GitHub
         </a>
