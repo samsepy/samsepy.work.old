@@ -1,3 +1,15 @@
+const currentAge = () => {
+  const birthday = new Date(1995, 8 - 1, 30);
+  const today = new Date();
+  const thisYearBirthDay = new Date(
+    today.getFullYear(),
+    birthday.getMonth(),
+    birthday.getDate()
+  );
+  const age = today.getFullYear() - birthday.getFullYear();
+  return today < thisYearBirthDay ? age - 1 : age;
+};
+
 export default {
   mode: "universal",
   /*
@@ -15,7 +27,7 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "1995年8月30日生まれ、25歳。文京区からリモートでエンジニアをやっている。海外で暮らしたい。",
+          `1995年8月30日生まれ、${currentAge()}歳。文京区からリモートでエンジニアをやっている。海外で暮らしたい。`,
       },
       { name: "keywords", content: "Hajime Todo, samsepy, 東度, 東度基" },
       {
@@ -29,7 +41,7 @@ export default {
         hid: "og:description",
         property: "og:description",
         content:
-          "1995年8月30日生まれ、25歳。文京区からリモートでエンジニアをやっている。海外で暮らしたい。",
+          `1995年8月30日生まれ、${currentAge()}歳。文京区からリモートでエンジニアをやっている。海外で暮らしたい。`,
       },
       { hid: "og:site_name", property: "og:site_name", content: "samsepy" },
       {
