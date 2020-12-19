@@ -4,7 +4,7 @@
     <h1 class="title">samsepy</h1>
     <p class="bio">
       1995年8月30日生まれ、{{currentAge}}歳。
-      <br />新宿でエンジニアをやっている。
+      <br />文京区からリモートでエンジニアをやっている。
       <br />海外で暮らしたい。
     </p>
     <h2>Profile</h2>
