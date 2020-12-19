@@ -8,8 +8,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "processmd": "processmd contents/blog/markdown/*.md --preview 160 --outputDir contents/blog/json --summaryOutput contents/blog/json/summary.json"
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.12.1",

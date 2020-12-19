@@ -128,11 +128,6 @@
     <h2>Sites</h2>
     <ul class="list">
       <li>
-        <nuxt-link to="/blog/">
-          <fa :icon="faBlog" class="related-logo" />Blog
-        </nuxt-link>
-      </li>
-      <li>
         <a href="https://scrapbox.io/samsepy/">
           <fa :icon="faBlog" class="related-logo" />Scrapbox
         </a>
