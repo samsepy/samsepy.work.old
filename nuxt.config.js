@@ -108,7 +108,6 @@ export default {
   sitemap: {
     path: "/sitemap.xml",
     hostname: "https://samsepy.work",
-    generate: true,
   },
   fontawesome: {
     component: "fa",
