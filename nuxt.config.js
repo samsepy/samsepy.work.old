@@ -69,6 +69,7 @@ export default {
     "@nuxtjs/sitemap",
     "nuxt-fontawesome",
     "@nuxtjs/svg",
+    '@nuxtjs/amp',
   ],
   /*
    ** Build configuration
