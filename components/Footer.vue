@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>&copy; 2019-2020 Hajime Todo</p>
+    <p>&copy; 2019-2022 Hajime Todo</p>
   </footer>
 </template>
 
