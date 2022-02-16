@@ -115,16 +115,31 @@
     <p>
       任意のホストの通信を強制的に遮断するCLIツール。SNS等で消耗している現代の若者におすすめ。
     </p>
-    <h2>Sites</h2>
+    <h2>Links</h2>
     <ul class="list">
-      <li>
-        <a href="https://scrapbox.io/samsepy/">
-          <fa :icon="faBlog" class="related-logo" />Scrapbox
-        </a>
-      </li>
       <li>
         <a href="https://github.com/samsepy/">
           <fa :icon="faGithub" class="related-logo" />GitHub
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/hajime.todo/">
+          <fa :icon="faFacebook" class="related-logo" />Facebook
+        </a>
+      </li>
+      <li>
+        <a href="https://line.me/ti/p/pGoAZ-zuEH/">
+          <fa :icon="faLine" class="related-logo" />LINE
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/samsepy/">
+          <fa :icon="faTwitter" class="related-logo" />Twitter
+        </a>
+      </li>
+      <li>
+        <a href="https://scrapbox.io/samsepy/">
+          <fa :icon="faBlog" class="related-logo" />Scrapbox
         </a>
       </li>
       <li>
@@ -140,21 +155,6 @@
       <li>
         <a href="https://alis.to/users/samsepy/">
           <alisLogo class="svg-inline--fa fa-w-16 related-logo" />ALIS
-        </a>
-      </li>
-      <li>
-        <a href="https://twitter.com/samsepy/">
-          <fa :icon="faTwitter" class="related-logo" />Twitter
-        </a>
-      </li>
-      <li>
-        <a href="https://www.facebook.com/hajime.todo/">
-          <fa :icon="faFacebook" class="related-logo" />Facebook
-        </a>
-      </li>
-      <li>
-        <a href="https://line.me/ti/p/pGoAZ-zuEH/">
-          <fa :icon="faLine" class="related-logo" />LINE
         </a>
       </li>
       <li>
