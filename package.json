@@ -27,6 +27,7 @@
     "serialize-javascript": "^3.1.0"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
     "prettier-eslint": "^9.0.0"
   }
 }
