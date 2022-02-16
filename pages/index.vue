@@ -3,30 +3,24 @@
     <img class="icon" src="/icon.png" alt="icon" width="200" height="200" />
     <h1 class="title">samsepy</h1>
     <p class="bio">
-      1995年8月30日生まれ、{{currentAge}}歳。
+      1995年8月30日生まれ、{{ currentAge }}歳。
       <br />文京区からリモートでエンジニアをやっている。
       <br />海外で暮らしたい。
     </p>
     <h2>Profile</h2>
     <ul class="list">
       <li>
-        <span>
-          <span class="item">Name</span>:
-        </span>
+        <span> <span class="item">Name</span>: </span>
         <wbr />
         <span>Hajime Todo (東度 基)</span>
       </li>
       <li>
-        <span>
-          <span class="item">Screen Name</span>:
-        </span>
+        <span> <span class="item">Screen Name</span>: </span>
         <wbr />
         <span>todo, samsepy</span>
       </li>
       <li>
-        <span>
-          <span class="item">Job</span>:
-        </span>
+        <span> <span class="item">Job</span>: </span>
         <wbr />
         <span>Software Engineer</span>
       </li>
@@ -37,7 +31,9 @@
             <span class="item">2014-2018</span>
             <wbr />
             <span>
-              <a href="https://www.kanazawa-it.ac.jp/">Kanazawa Institute of Technology</a>
+              <a href="https://www.kanazawa-it.ac.jp/"
+                >Kanazawa Institute of Technology</a
+              >
             </span>
           </li>
           <li>
@@ -71,9 +67,7 @@
     <h2>Skills</h2>
     <ul class="list">
       <li>
-        <span>
-          <span class="item">Programming Languages</span>:
-        </span>
+        <span> <span class="item">Programming Languages</span>: </span>
         <wbr />
         <span>
           <a href="https://www.ruby-lang.org/">Ruby</a>,
@@ -81,37 +75,31 @@
         </span>
       </li>
       <li>
-        <span>
-          <span class="item">Frameworks</span>:
-        </span>
+        <span> <span class="item">Frameworks</span>: </span>
         <wbr />
         <span>
           <a href="https://rubyonrails.org/">Ruby on Rails</a>
         </span>
       </li>
       <li>
-        <span>
-          <span class="item">Databases</span>:
-        </span>
+        <span> <span class="item">Databases</span>: </span>
         <wbr />
         <span>
           <a href="https://www.mysql.com/">MySQL</a>
         </span>
       </li>
       <li>
-        <span>
-          <span class="item">Markup Languages</span>:
-        </span>
+        <span> <span class="item">Markup Languages</span>: </span>
         <wbr />
         <span>
           <a href="https://en.wikipedia.org/wiki/HTML5">HTML5</a> +
-          <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3">CSS3</a>
+          <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3"
+            >CSS3</a
+          >
         </span>
       </li>
       <li>
-        <span>
-          <span class="item">Environments</span>:
-        </span>
+        <span> <span class="item">Environments</span>: </span>
         <wbr />
         <span>
           <a href="https://www.apple.com/macos/">macOS</a>,
@@ -124,7 +112,9 @@
     <h3>
       <a href="https://github.com/samsepy/banhst.git">banhst</a>
     </h3>
-    <p>任意のホストの通信を強制的に遮断するCLIツール。SNS等で消耗している現代の若者におすすめ。</p>
+    <p>
+      任意のホストの通信を強制的に遮断するCLIツール。SNS等で消耗している現代の若者におすすめ。
+    </p>
     <h2>Sites</h2>
     <ul class="list">
       <li>
@@ -163,7 +153,9 @@
         </a>
       </li>
       <li>
-        <a href="https://www.amazon.jp/hz/wishlist/ls/13WQUGCYG4293?ref_=wl_share">
+        <a
+          href="https://www.amazon.jp/hz/wishlist/ls/13WQUGCYG4293?ref_=wl_share"
+        >
           <fa :icon="faAmazon" class="related-logo" />Amazon
         </a>
       </li>
@@ -172,30 +164,22 @@
     <p>請求や送金する際にこちらを使ってもらうと助かります。</p>
     <ul class="list">
       <li>
-        <span>
-          <span class="item">Kyash</span>:
-        </span>
+        <span> <span class="item">Kyash</span>: </span>
         <wbr />
         <span>@samsepy</span>
       </li>
       <li>
-        <span>
-          <span class="item">LINE Pay</span>:
-        </span>
+        <span> <span class="item">LINE Pay</span>: </span>
         <wbr />
         <span>@todo1995</span>
       </li>
       <li>
-        <span>
-          <span class="item">PayPay</span>:
-        </span>
+        <span> <span class="item">PayPay</span>: </span>
         <wbr />
         <span>@samsepy</span>
       </li>
       <li>
-        <span>
-          <span class="item">NEM</span>:
-        </span>
+        <span> <span class="item">NEM</span>: </span>
         <wbr />
         <span>NAVLPQ-TXNVHP-GSXUE7-NEH5N4-QMPH2X-Q5VZ65-OWFI</span>
       </li>
@@ -233,13 +217,13 @@ import {
   faTwitter,
   faAmazon,
   faTelegram,
-  faFacebookMessenger
+  faFacebookMessenger,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faBlog,
   faSearch,
   faPhone,
-  faEnvelope
+  faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import alisLogo from "@/assets/images/logos/alis.svg?inline";
 
@@ -285,11 +269,11 @@ export default {
     },
     faFacebookMessenger() {
       return faFacebookMessenger;
-    }
+    },
   },
   components: {
-    alisLogo
-  }
+    alisLogo,
+  },
 };
 </script>
 
