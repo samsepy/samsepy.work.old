@@ -4,8 +4,7 @@
     <h1 class="title">samsepy</h1>
     <p class="bio">
       1995年8月30日生まれ、{{ currentAge }}歳。
-      <br />文京区からリモートでエンジニアをやっている。
-      <br />海外で暮らしたい。
+      <br />リモートでエンジニアをやっている。 <br />海外で暮らしたい。
     </p>
     <h2>Profile</h2>
     <ul class="list">
@@ -133,34 +132,7 @@
         </a>
       </li>
       <li>
-        <a href="https://twitter.com/samsepy/">
-          Twitter
-        </a>
-      </li>
-      <li>
         <a href="https://scrapbox.io/samsepy/">Scrapbox </a>
-      </li>
-      <li>
-        <a href="https://qiita.com/samsepy/">
-          Qiita
-        </a>
-      </li>
-      <li>
-        <a href="http://samsepy.hatenablog.com/">
-          はてなブログ
-        </a>
-      </li>
-      <li>
-        <a href="https://alis.to/users/samsepy/">
-          ALIS
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://www.amazon.jp/hz/wishlist/ls/13WQUGCYG4293?ref_=wl_share/"
-        >
-          Amazon
-        </a>
       </li>
     </ul>
     <h2>Pays</h2>
