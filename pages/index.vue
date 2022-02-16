@@ -119,49 +119,47 @@
     <ul class="list">
       <li>
         <a href="https://github.com/samsepy/">
-          <fa :icon="faGithub" class="related-logo" />GitHub
+          GitHub
         </a>
       </li>
       <li>
         <a href="https://www.facebook.com/hajime.todo/">
-          <fa :icon="faFacebook" class="related-logo" />Facebook
+          Facebook
         </a>
       </li>
       <li>
         <a href="https://line.me/ti/p/pGoAZ-zuEH/">
-          <fa :icon="faLine" class="related-logo" />LINE
+          LINE
         </a>
       </li>
       <li>
         <a href="https://twitter.com/samsepy/">
-          <fa :icon="faTwitter" class="related-logo" />Twitter
+          Twitter
         </a>
       </li>
       <li>
-        <a href="https://scrapbox.io/samsepy/">
-          <fa :icon="faBlog" class="related-logo" />Scrapbox
-        </a>
+        <a href="https://scrapbox.io/samsepy/">Scrapbox </a>
       </li>
       <li>
         <a href="https://qiita.com/samsepy/">
-          <fa :icon="faSearch" class="related-logo" />Qiita
+          Qiita
         </a>
       </li>
       <li>
         <a href="http://samsepy.hatenablog.com/">
-          <fa :icon="faBlog" class="related-logo" />はてなブログ
+          はてなブログ
         </a>
       </li>
       <li>
         <a href="https://alis.to/users/samsepy/">
-          <alisLogo class="svg-inline--fa fa-w-16 related-logo" />ALIS
+          ALIS
         </a>
       </li>
       <li>
         <a
           href="https://www.amazon.jp/hz/wishlist/ls/13WQUGCYG4293?ref_=wl_share/"
         >
-          <fa :icon="faAmazon" class="related-logo" />Amazon
+          Amazon
         </a>
       </li>
     </ul>
@@ -192,23 +190,17 @@
     <h2>Contacts</h2>
     <ul class="list">
       <li>
-        <a href="tel:+819062734866">
-          <fa :icon="faPhone" class="related-logo" />Tel
-        </a>
+        <a href="tel:+819062734866">Tel</a>
       </li>
       <li>
-        <a href="mailto:htodo@protonmail.ch/">
-          <fa :icon="faEnvelope" class="related-logo" />Mail
-        </a>
+        <a href="mailto:htodo@protonmail.ch/">Mail</a>
       </li>
       <li>
-        <a href="https://t.me/samsepy/">
-          <fa :icon="faTelegram" class="related-logo" />Telegram
-        </a>
+        <a href="https://t.me/samsepy/">Telegram </a>
       </li>
       <li>
         <a href="https://www.facebook.com/hajime.todo/">
-          <fa :icon="faFacebookMessenger" class="related-logo" />Messenger
+          Messenger
         </a>
       </li>
     </ul>
@@ -245,39 +237,6 @@ export default {
       );
       const age = today.getFullYear() - birthday.getFullYear();
       return today < thisYearBirthDay ? age - 1 : age;
-    },
-    faGithub() {
-      return faGithub;
-    },
-    faBlog() {
-      return faBlog;
-    },
-    faFacebook() {
-      return faFacebook;
-    },
-    faTwitter() {
-      return faTwitter;
-    },
-    faAmazon() {
-      return faAmazon;
-    },
-    faSearch() {
-      return faSearch;
-    },
-    faPhone() {
-      return faPhone;
-    },
-    faEnvelope() {
-      return faEnvelope;
-    },
-    faTelegram() {
-      return faTelegram;
-    },
-    faFacebookMessenger() {
-      return faFacebookMessenger;
-    },
-    faLine() {
-      return faLine;
     },
   },
   components: {
