@@ -92,8 +92,8 @@
         <span> <span class="item">Markup Languages</span>: </span>
         <wbr />
         <span>
-          <a href="https://en.wikipedia.org/wiki/HTML5">HTML5</a> +
-          <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3"
+          <a href="https://en.wikipedia.org/wiki/HTML5/">HTML5</a> +
+          <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3/"
             >CSS3</a
           >
         </span>
@@ -110,7 +110,7 @@
     </ul>
     <h2>Works</h2>
     <h3>
-      <a href="https://github.com/samsepy/banhst.git">banhst</a>
+      <a href="https://github.com/samsepy/banhst.git/">banhst</a>
     </h3>
     <p>
       任意のホストの通信を強制的に遮断するCLIツール。SNS等で消耗している現代の若者におすすめ。
@@ -123,12 +123,12 @@
         </a>
       </li>
       <li>
-        <a href="https://github.com/samsepy">
+        <a href="https://github.com/samsepy/">
           <fa :icon="faGithub" class="related-logo" />GitHub
         </a>
       </li>
       <li>
-        <a href="https://qiita.com/samsepy">
+        <a href="https://qiita.com/samsepy/">
           <fa :icon="faSearch" class="related-logo" />Qiita
         </a>
       </li>
@@ -138,23 +138,23 @@
         </a>
       </li>
       <li>
-        <a href="https://alis.to/users/samsepy">
+        <a href="https://alis.to/users/samsepy/">
           <alisLogo class="svg-inline--fa fa-w-16 related-logo" />ALIS
         </a>
       </li>
       <li>
-        <a href="https://twitter.com/samsepy">
+        <a href="https://twitter.com/samsepy/">
           <fa :icon="faTwitter" class="related-logo" />Twitter
         </a>
       </li>
       <li>
-        <a href="https://www.facebook.com/hajime.todo">
+        <a href="https://www.facebook.com/hajime.todo/">
           <fa :icon="faFacebook" class="related-logo" />Facebook
         </a>
       </li>
       <li>
         <a
-          href="https://www.amazon.jp/hz/wishlist/ls/13WQUGCYG4293?ref_=wl_share"
+          href="https://www.amazon.jp/hz/wishlist/ls/13WQUGCYG4293?ref_=wl_share/"
         >
           <fa :icon="faAmazon" class="related-logo" />Amazon
         </a>
@@ -192,17 +192,17 @@
         </a>
       </li>
       <li>
-        <a href="mailto:htodo@protonmail.ch">
+        <a href="mailto:htodo@protonmail.ch/">
           <fa :icon="faEnvelope" class="related-logo" />Mail
         </a>
       </li>
       <li>
-        <a href="https://t.me/samsepy">
+        <a href="https://t.me/samsepy/">
           <fa :icon="faTelegram" class="related-logo" />Telegram
         </a>
       </li>
       <li>
-        <a href="https://www.facebook.com/hajime.todo">
+        <a href="https://www.facebook.com/hajime.todo/">
           <fa :icon="faFacebookMessenger" class="related-logo" />Messenger
         </a>
       </li>
