@@ -180,23 +180,6 @@
 </template>
 
 <script>
-import {
-  faGithub,
-  faFacebook,
-  faTwitter,
-  faAmazon,
-  faTelegram,
-  faFacebookMessenger,
-  faLine,
-} from "@fortawesome/free-brands-svg-icons";
-import {
-  faBlog,
-  faSearch,
-  faPhone,
-  faEnvelope,
-} from "@fortawesome/free-solid-svg-icons";
-import alisLogo from "@/assets/images/logos/alis.svg?inline";
-
 export default {
   computed: {
     currentAge() {
@@ -210,9 +193,6 @@ export default {
       const age = today.getFullYear() - birthday.getFullYear();
       return today < thisYearBirthDay ? age - 1 : age;
     },
-  },
-  components: {
-    alisLogo,
   },
 };
 </script>
