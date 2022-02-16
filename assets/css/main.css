@@ -46,7 +46,8 @@ a {
 
 a svg {
   color: #d57030;
-  fill: #d57030; /* alisロゴ用 */
+  fill: #d57030;
+  /* alisロゴ用 */
 }
 
 a:hover {
@@ -78,6 +79,9 @@ a:hover {
 
 .switch-light {
   position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #616161;
   background-color: #fff;
   width: 60px;
@@ -92,6 +96,9 @@ a:hover {
 
 .switch-dark {
   position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
   background-color: #616161;
   width: 60px;
@@ -113,7 +120,7 @@ a:hover {
 }
 
 .switch-icon {
-  width: 100%;
-  height: 100%;
+  width: 60%;
+  height: 60%;
   font-size: 30px;
 }
