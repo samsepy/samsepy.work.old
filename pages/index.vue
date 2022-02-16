@@ -93,7 +93,7 @@
         <wbr />
         <span>
           <a href="https://en.wikipedia.org/wiki/HTML5/">HTML5</a> +
-          <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3/"
+          <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3"
             >CSS3</a
           >
         </span>
@@ -150,6 +150,11 @@
       <li>
         <a href="https://www.facebook.com/hajime.todo/">
           <fa :icon="faFacebook" class="related-logo" />Facebook
+        </a>
+      </li>
+      <li>
+        <a href="https://line.me/ti/p/pGoAZ-zuEH/">
+          <fa :icon="faLine" class="related-logo" />LINE
         </a>
       </li>
       <li>
@@ -218,6 +223,7 @@ import {
   faAmazon,
   faTelegram,
   faFacebookMessenger,
+  faLine,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faBlog,
@@ -269,6 +275,9 @@ export default {
     },
     faFacebookMessenger() {
       return faFacebookMessenger;
+    },
+    faLine() {
+      return faLine;
     },
   },
   components: {
