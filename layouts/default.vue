@@ -1,6 +1,7 @@
 <template>
   <div :class="currentMode">
     <div class="container">
+      <Header />
       <nuxt />
       <Footer />
       <span :class="currentSwitch" @click="setMode">
@@ -11,6 +12,7 @@
 </template>
 
 <script>
+import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { faLightbulb } from "@fortawesome/free-regular-svg-icons";
 export default {
@@ -20,6 +22,7 @@ export default {
     };
   },
   components: {
+    Header,
     Footer,
   },
   mounted: function() {
