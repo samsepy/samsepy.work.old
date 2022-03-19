@@ -124,3 +124,11 @@ a:hover {
   height: 60%;
   font-size: 30px;
 }
+
+.location-icon {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  font-size: 60px;
+  height: 60px;
+}

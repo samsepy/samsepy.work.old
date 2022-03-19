@@ -13,7 +13,7 @@
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
     "@fortawesome/free-regular-svg-icons": "^5.13.0",
-    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.0",
     "@nuxtjs/amp": "^0.5.1",
     "@nuxtjs/google-analytics": "^2.2.0",
     "@nuxtjs/pwa": "^3.0.0-beta.20",

@@ -1,20 +1,22 @@
 <template>
   <div :class="currentMode">
     <div class="container">
-      <Header />
       <nuxt />
       <Footer />
       <span :class="currentSwitch" @click="setMode">
         <fa :icon="faLightbulb" class="switch-icon" />
       </span>
+      <a href="https://maps.app.goo.gl/a4w2fnFD5rrRHYLj8"
+        ><fa :icon="faLocationDot" class="location-icon"
+      /></a>
     </div>
   </div>
 </template>
 
 <script>
-import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { faLightbulb } from "@fortawesome/free-regular-svg-icons";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 export default {
   data: function() {
     return {
@@ -22,7 +24,6 @@ export default {
     };
   },
   components: {
-    Header,
     Footer,
   },
   mounted: function() {
@@ -51,6 +52,9 @@ export default {
     },
     faLightbulb() {
       return faLightbulb;
+    },
+    faLocationDot() {
+      return faLocationDot;
     },
   },
   methods: {
