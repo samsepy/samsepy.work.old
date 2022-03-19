@@ -7,7 +7,7 @@
         <fa :icon="faLightbulb" class="switch-icon" />
       </span>
       <a href="https://maps.app.goo.gl/a4w2fnFD5rrRHYLj8"
-        ><fa :icon="faLocationDot" class="location-icon"
+        ><fa :icon="faLocationDot" class="location-icon anime-fuwa"
       /></a>
     </div>
   </div>
