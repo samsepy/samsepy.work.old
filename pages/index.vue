@@ -6,6 +6,7 @@
       1995年8月30日生まれ、{{ currentAge }}歳。
       <br />リモートでエンジニアをやっている。 <br />海外で暮らしたい。<a
         href="https://maps.app.goo.gl/a4w2fnFD5rrRHYLj8"
+        @click="trackEventClick('location')"
         >津々浦々に出没する</a
       >。
     </p>
@@ -120,22 +121,35 @@
     <h2>Links</h2>
     <ul class="list">
       <li>
-        <a href="https://github.com/samsepy/">
+        <a
+          href="https://github.com/samsepy/"
+          @click="trackEventClick('github')"
+        >
           GitHub
         </a>
       </li>
       <li>
-        <a href="https://www.facebook.com/hajime.todo/">
+        <a
+          href="https://www.facebook.com/hajime.todo/"
+          @click="trackEventClick('facebook')"
+        >
           Facebook
         </a>
       </li>
       <li>
-        <a href="https://line.me/ti/p/pGoAZ-zuEH/">
+        <a
+          href="https://line.me/ti/p/pGoAZ-zuEH/"
+          @click="trackEventClick('line')"
+        >
           LINE
         </a>
       </li>
       <li>
-        <a href="https://scrapbox.io/samsepy/">Scrapbox </a>
+        <a
+          href="https://scrapbox.io/samsepy/"
+          @click="trackEventClick('scrapbox')"
+          >Scrapbox
+        </a>
       </li>
     </ul>
     <h2>Pays</h2>
@@ -165,16 +179,23 @@
     <h2>Contacts</h2>
     <ul class="list">
       <li>
-        <a href="tel:+819062734866">Tel</a>
+        <a href="tel:+819062734866" @click="trackEventClick('tel')">Tel</a>
       </li>
       <li>
-        <a href="mailto:htodo@protonmail.ch/">Mail</a>
+        <a href="mailto:htodo@protonmail.ch/" @click="trackEventClick('mail')"
+          >Mail</a
+        >
       </li>
       <li>
-        <a href="https://t.me/samsepy/">Telegram </a>
+        <a href="https://t.me/samsepy/" @click="trackEventClick('telegram')"
+          >Telegram
+        </a>
       </li>
       <li>
-        <a href="https://www.facebook.com/hajime.todo/">
+        <a
+          href="https://www.facebook.com/hajime.todo/"
+          @click="trackEventClick('messenger')"
+        >
           Messenger
         </a>
       </li>

@@ -26,8 +26,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content:
-          `1995年8月30日生まれ、${currentAge()}歳。リモートでエンジニアをやっている。海外で暮らしたい。`,
+        content: `1995年8月30日生まれ、${currentAge()}歳。リモートでエンジニアをやっている。海外で暮らしたい。`,
       },
       { name: "keywords", content: "Hajime Todo, samsepy, 東度, 東度基" },
       {
@@ -40,8 +39,7 @@ export default {
       {
         hid: "og:description",
         property: "og:description",
-        content:
-          `1995年8月30日生まれ、${currentAge()}歳。リモートでエンジニアをやっている。海外で暮らしたい。`,
+        content: `1995年8月30日生まれ、${currentAge()}歳。リモートでエンジニアをやっている。海外で暮らしたい。`,
       },
       { hid: "og:site_name", property: "og:site_name", content: "samsepy" },
       {
@@ -63,7 +61,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: ["@plugins/mixin"],
   /*
    ** Nuxt.js dev-modules
    */
@@ -89,19 +87,17 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) { },
+    extend(config, ctx) {},
     babel: {
       presets({ isServer }) {
-        const targets = isServer ? { node: 'current' } : { ie: 11 }
-        return [
-          [require.resolve("@babel/preset-env"), { targets }]
-        ]
+        const targets = isServer ? { node: "current" } : { ie: 11 };
+        return [[require.resolve("@babel/preset-env"), { targets }]];
       },
       plugins: [
         "@babel/syntax-dynamic-import",
         "@babel/transform-runtime",
-        "@babel/transform-async-to-generator"
-      ]
+        "@babel/transform-async-to-generator",
+      ],
     },
   },
   sitemap: {

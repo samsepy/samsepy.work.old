@@ -13,6 +13,7 @@
       <a
         href="https://maps.app.goo.gl/a4w2fnFD5rrRHYLj8"
         style="opacity: initial;"
+        @click="trackEventClick('location')"
       >
         <span class="floating-button location-button" :class="currentSwitch">
           <fa :icon="faLocationDot" class="location-icon" /> </span
