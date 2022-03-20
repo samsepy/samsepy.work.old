@@ -28,7 +28,7 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 export default {
   data: function() {
     return {
-      mode: "",
+      mode: "light",
     };
   },
   components: {
@@ -38,8 +38,6 @@ export default {
     if (localStorage.colorThema !== "") {
       this.mode = localStorage.colorThema;
       return;
-    } else {
-      this.mode = "light";
     }
     if (this.isDarkMode()) {
       this.mode = "dark";
