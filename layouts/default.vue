@@ -38,6 +38,8 @@ export default {
     if (localStorage.colorThema !== "") {
       this.mode = localStorage.colorThema;
       return;
+    } else {
+      this.mode = "light";
     }
     if (this.isDarkMode()) {
       this.mode = "dark";
