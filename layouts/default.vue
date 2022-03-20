@@ -3,12 +3,20 @@
     <div class="container">
       <nuxt />
       <Footer />
-      <span :class="currentSwitch" @click="setMode">
+      <span
+        class="floating-button mode-switch-button"
+        :class="currentSwitch"
+        @click="setMode"
+      >
         <fa :icon="faLightbulb" class="switch-icon" />
       </span>
-      <a href="https://maps.app.goo.gl/a4w2fnFD5rrRHYLj8"
-        ><fa :icon="faLocationDot" class="location-icon anime-fuwa"
-      /></a>
+      <a
+        href="https://maps.app.goo.gl/a4w2fnFD5rrRHYLj8"
+        style="opacity: initial;"
+      >
+        <span class="floating-button location-button" :class="currentSwitch">
+          <fa :icon="faLocationDot" class="location-icon" /> </span
+      ></a>
     </div>
   </div>
 </template>

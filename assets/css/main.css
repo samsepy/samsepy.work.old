@@ -44,12 +44,6 @@ a {
   color: #f29d4b;
 }
 
-a svg {
-  color: #d57030;
-  fill: #d57030;
-  /* alisロゴ用 */
-}
-
 a:hover {
   opacity: 0.75;
 }
@@ -78,33 +72,32 @@ a:hover {
 }
 
 .switch-light {
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: #616161;
   background-color: #fff;
-  width: 60px;
-  height: 60px;
-  bottom: 30px;
-  right: 30px;
-  border-radius: 50%;
-  box-shadow: 2px 2px 4px black;
-  text-align: center;
-  vertical-align: bottom;
 }
 
 .switch-dark {
+  color: #fff;
+  background-color: #616161;
+}
+
+.mode-switch-button {
+  bottom: 30px;
+  right: 30px;
+}
+
+.location-button {
+  bottom: 105px;
+  right: 30px;
+}
+
+.floating-button {
   position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
-  background-color: #616161;
   width: 60px;
   height: 60px;
-  bottom: 30px;
-  right: 30px;
   border-radius: 50%;
   box-shadow: 2px 2px 4px black;
   text-align: center;
@@ -126,23 +119,7 @@ a:hover {
 }
 
 .location-icon {
-  position: fixed;
-  bottom: 30px;
-  left: 30px;
-  font-size: 60px;
-  height: 60px;
-}
-
-@keyframes fuwa {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
-}
-
-.anime-fuwa {
-  animation: 1s fuwa infinite;
+  width: 60%;
+  height: 60%;
+  font-size: 30px;
 }
