@@ -4,7 +4,10 @@
     <h1 class="title">samsepy</h1>
     <p class="bio">
       1995年8月30日生まれ、{{ currentAge }}歳。
-      <br />リモートでエンジニアをやっている。 <br />海外で暮らしたい。
+      <br />リモートでエンジニアをやっている。 <br />海外で暮らしたい。<a
+        href="https://maps.app.goo.gl/a4w2fnFD5rrRHYLj8"
+        >津々浦々に出没する</a
+      >。
     </p>
     <h2>Profile</h2>
     <ul class="list">
