@@ -71,16 +71,6 @@ a:hover {
   color: #616161;
 }
 
-.switch-light {
-  color: #616161;
-  background-color: #fff;
-}
-
-.switch-dark {
-  color: #fff;
-  background-color: #616161;
-}
-
 .mode-switch-button {
   bottom: 30px;
   right: 30px;
@@ -102,23 +92,10 @@ a:hover {
   box-shadow: 2px 2px 4px black;
   text-align: center;
   vertical-align: bottom;
-}
-
-.switch-light:hover {
   cursor: pointer;
 }
 
-.switch-dark:hover {
-  cursor: pointer;
-}
-
-.switch-icon {
-  width: 60%;
-  height: 60%;
-  font-size: 30px;
-}
-
-.location-icon {
+.floating-button .icon {
   width: 60%;
   height: 60%;
   font-size: 30px;
