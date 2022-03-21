@@ -26,7 +26,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: `1995年8月30日生まれ、${currentAge()}歳。リモートでエンジニアをやっている。海外で暮らしたい。`,
+        content: `1995年8月30日生まれ、${currentAge()}歳。リモートでエンジニアをやっている。海外で暮らしたい。津々浦々に出没する。`,
       },
       { name: "keywords", content: "Hajime Todo, samsepy, 東度, 東度基" },
       {
@@ -39,7 +39,7 @@ export default {
       {
         hid: "og:description",
         property: "og:description",
-        content: `1995年8月30日生まれ、${currentAge()}歳。リモートでエンジニアをやっている。海外で暮らしたい。`,
+        content: `1995年8月30日生まれ、${currentAge()}歳。リモートでエンジニアをやっている。海外で暮らしたい。津々浦々に出没する。`,
       },
       { hid: "og:site_name", property: "og:site_name", content: "samsepy" },
       {
