@@ -11,7 +11,7 @@
         <fa :icon="faLightbulb" class="icon" />
       </span>
       <a
-        href="https://maps.app.goo.gl/a4w2fnFD5rrRHYLj8"
+        href="https://maps.app.goo.gl/UfwrUpCyCRPcLNcEA"
         style="opacity: initial;"
         @click="trackEventClick('location')"
       >
