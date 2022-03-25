@@ -5,7 +5,7 @@
     <p class="bio">
       1995年8月30日生まれ、{{ currentAge }}歳。
       <br />リモートでエンジニアをやっている。 <br />海外で暮らしたい。<a
-        href="https://maps.app.goo.gl/YPWuKsyDXzEfht4r9"
+        href="https://maps.app.goo.gl/UfwrUpCyCRPcLNcEA"
         @click="trackEventClick('location')"
         >津々浦々に出没する</a
       >。
