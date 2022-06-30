@@ -55,11 +55,7 @@
           </li>
           <li>
             <span class="item">Currently</span>
-            <br />
-            <span>
-              <a href="https://www.sejuku.net/">Samurai Inc.</a>
-            </span>
-            <br />
+            <wbr />
             <span>
               <a href="https://entershare.jp/">entershare Inc.</a>
             </span>
